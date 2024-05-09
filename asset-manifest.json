@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/g-nitin/g-nitin.github.io/static/css/main.fbc00891.css",
-    "main.js": "/g-nitin/g-nitin.github.io/static/js/main.aaffa22a.js",
-    "index.html": "/g-nitin/g-nitin.github.io/index.html"
+    "main.css": "/static/css/main.fbc00891.css",
+    "main.js": "/static/js/main.97a3000e.js",
+    "index.html": "/index.html"
   },
   "entrypoints": [
     "static/css/main.fbc00891.css",
-    "static/js/main.aaffa22a.js"
+    "static/js/main.97a3000e.js"
   ]
 }
