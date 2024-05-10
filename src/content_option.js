@@ -82,12 +82,12 @@ const services = [{
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/800/?grayscale",
+        img: "https://raw.githubusercontent.com/g-nitin/portfolio/master/src/assets/images/stylized_seg.png",
         description: "A web app for segment-based and interactive neural style transfer.",
         link: "https://github.com/g-nitin/stylized-segmentation",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
+        img: "https://raw.githubusercontent.com/g-nitin/portfolio/master/src/assets/images/image_coloring.png",
         description: "Coloring images with a Convolutional Autoencoders.",
         link: "https://github.com/g-nitin/convolutional-autoencoder",
     },
@@ -103,7 +103,7 @@ const dataportfolio = [{
     },
     {
         img: "https://picsum.photos/400/300/?grayscale",
-        description: "A camp-system terminal-based UI.",
+        description: "A camp-system CLI.",
         link: "https://github.com/RebeccaCun/camp-system",
     },
     {
