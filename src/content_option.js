@@ -68,17 +68,17 @@ const skills = [{
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "AI/ML Research & Development",
+        description: "Developing cutting-edge AI and machine learning solutions through research, experimentation, and implementation.",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Data Science & Storytelling",
+        description: "Uncover hidden insights from data and craft compelling narratives to drive informed decisions.",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
+        title: "Software Development",
+        description: "Develop robust and scalable software solutions that are tailored to meet specific business needs.",
+    }
 ];
 
 const dataportfolio = [{
@@ -87,19 +87,14 @@ const dataportfolio = [{
         link: "https://github.com/g-nitin/stylized-segmentation",
     },
     {
-        img: "https://raw.githubusercontent.com/g-nitin/portfolio/master/src/assets/images/image_coloring.png",
-        description: "Coloring images with a Convolutional Autoencoders.",
-        link: "https://github.com/g-nitin/convolutional-autoencoder",
-    },
-    {
-        img: "https://raw.githubusercontent.com/g-nitin/portfolio/master/src/assets/images/OTB.png",
-        description: "Machine Learning & Text mining to discover Jim Crow and racially-based laws.",
-        link: "https://github.com/g-nitin/OnTheBooksUofSC",
-    },
-    {
         img: "https://raw.githubusercontent.com/g-nitin/portfolio/master/src/assets/images/vis_lib.png",
         description: "Interactive, web-based documents and tools for data visualizations at the USC Libraries.",
         link: "https://github.com/g-nitin/Library-Data-Visualization",
+    },
+    {
+        img: "https://raw.githubusercontent.com/g-nitin/portfolio/master/src/assets/images/image_coloring.png",
+        description: "Coloring images with a Convolutional Autoencoders.",
+        link: "https://github.com/g-nitin/convolutional-autoencoder",
     },
     {
         img: "https://raw.githubusercontent.com/g-nitin/portfolio/master/src/assets/images/camp.png",
@@ -107,7 +102,12 @@ const dataportfolio = [{
         link: "https://github.com/RebeccaCun/camp-system",
     },
     {
-        img: "https://raw.githubusercontent.com/g-nitin/portfolio/master/src/assets/images/non_linear.png",
+        img: "https://raw.githubusercontent.com/g-nitin/portfolio/master/src/assets/images/OTB.png",
+        description: "Machine Learning & Text mining to discover Jim Crow and racially-based laws.",
+        link: "https://github.com/g-nitin/OnTheBooksUofSC",
+    },
+    {
+        img: "https://raw.githubusercontent.com/g-nitin/portfolio/master/src/assets/images/non_lin.png",
         description: "Exploring custom non-linear least squares fitting alongside comparisons to established libraries.",
         link: "https://github.com/g-nitin/Non-Linear-Least-Sq",
     },
@@ -147,7 +147,7 @@ const dataportfolio = [{
 const contactConfig = {
     YOUR_EMAIL: "niting1209@gmail.com",
     YOUR_FONE: "(803)470-9214",
-    description: "Send me a message or contact me using the services given above.",
+    description: "",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_rh3wmsj",
