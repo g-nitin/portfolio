@@ -1,4 +1,4 @@
-const logotext = "NITIN GUPTA";
+const logotext = "NG";
 const meta = {
     title: "Nitin Gupta",
     description: "I’m Nitin Gupta, an AI researcher, currently pursuing a B.S. in Computer Science at the University of South Carolina",
