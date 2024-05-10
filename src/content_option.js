@@ -1,11 +1,11 @@
-const logotext = "JOHN";
+const logotext = "NITIN";
 const meta = {
     title: "Nitin Gupta",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    description: "I’m Nitin Gupta, an AI researcher, currently working in Columbia, SC",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Nitin Gupta",
     animated: {
         first: "I love coding",
         second: "I design intelligent systems",
