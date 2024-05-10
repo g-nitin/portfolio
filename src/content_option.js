@@ -92,22 +92,22 @@ const dataportfolio = [{
         link: "https://github.com/g-nitin/convolutional-autoencoder",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
+        img: "https://raw.githubusercontent.com/g-nitin/portfolio/master/src/assets/images/OTB.png",
         description: "Machine Learning & Text mining to discover Jim Crow and racially-based laws.",
         link: "https://github.com/g-nitin/OnTheBooksUofSC",
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
+        img: "https://raw.githubusercontent.com/g-nitin/portfolio/master/src/assets/images/vis_lib.png",
         description: "Interactive, web-based documents and tools for data visualizations at the USC Libraries.",
         link: "https://github.com/g-nitin/Library-Data-Visualization",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
+        img: "https://raw.githubusercontent.com/g-nitin/portfolio/master/src/assets/images/camp.png",
         description: "A camp-system CLI.",
         link: "https://github.com/RebeccaCun/camp-system",
     },
     {
-        img: "https://picsum.photos/400/700/?grayscale",
+        img: "https://raw.githubusercontent.com/g-nitin/portfolio/master/src/assets/images/non_linear.png",
         description: "Exploring custom non-linear least squares fitting alongside comparisons to established libraries.",
         link: "https://github.com/g-nitin/Non-Linear-Least-Sq",
     },
