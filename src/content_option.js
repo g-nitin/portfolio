@@ -107,9 +107,9 @@ const dataportfolio = [{
         link: "https://github.com/g-nitin/OnTheBooksUofSC",
     },
     {
-        img: "https://raw.githubusercontent.com/g-nitin/portfolio/master/src/assets/images/non_lin.png",
-        description: "Exploring custom non-linear least squares fitting alongside comparisons to established libraries.",
-        link: "https://github.com/g-nitin/Non-Linear-Least-Sq",
+        img: "https://raw.githubusercontent.com/g-nitin/portfolio/master/src/assets/images/nn_approx.png",
+        description: "Function approximation using neural networks.",
+        link: "https://github.com/g-nitin/nn-sin-approximation",
     },
 
     // {
