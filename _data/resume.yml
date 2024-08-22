@@ -18,6 +18,15 @@ education:
       - Minors in Mathematics, Data Science
       - President's Honor List (since Aug '21)
       - "Relevant coursework: Artificial Intelligence, Big Data Analytics, Software Engineering, Database Design"
+  - institution: South Carolina Governor's School for Science and Mathematics
+    location: Hartsville, SC
+    degree: High School Diploma
+    gpa: 4.9/4.0
+    duration: Aug 2019 - May 2021
+    details:
+      - Participated with Pulsar Search Collaboratory
+      - SC State Finance Challenge (Joint winner)
+      - Sir Issac Newton Exam (Distinction)
 
 skills:
   advanced:
@@ -50,6 +59,11 @@ experience:
       - Conducting traffic data analysis for the SCDEC by identifying collision patterns and evaluating safety programs
       - Developing innovative chatbot systems to promote voter participation among vulnerable groups
       - Developing automated literature categorization tools, contributing to advancements in AI applications
+    links:
+      - text: AIISC Website
+        url: https://aiisc.ai/
+      - text: Project Page
+        url: https://example.com/project
 
   - title: Explainable AI Research Intern
     company: University of South Carolina, AIISC
@@ -58,6 +72,7 @@ experience:
     responsibilities:
       - Developed a novel framework integrating Planning Ontology with LLMs to generate transparent, context-aware explanations for AI-generated plans
       - Demonstrated significant improvements in reasoning capabilities of smaller LLMs through ontology-enhanced prompts, contributing to the field of Explainable AI by enhancing user understanding and trust
+      - Presented research findings at the 2024 Summer Research Symposium, receiving positive feedback from industry professionals
 
   - title: Machine Learning Researcher
     company: University of South Carolina, Digital Research Services
@@ -65,7 +80,8 @@ experience:
     duration: Aug 2022 - Apr 2024
     responsibilities:
       - Conducted data mining on South Carolina Laws using Python and Natural Language Processing
-      - Trained machine-learning algorithms to study the prepared session laws and identify Jim Crow Language
+      - Trained machine-learning (ML) algorithms to study the prepared session laws and identify Jim Crow Languagee
+      - Worked with teams at the University of Virginia, University of North Carolina Chapel Hill, and the University of South Carolina to develop develop ML methods
 
   - title: Volunteering Ambassador
     company: Trew Friends
@@ -74,6 +90,31 @@ experience:
     responsibilities:
       - Promoted organ, eye, and tissue donation at the University of South Carolina, informing and educating people about the importance of donation
       - Successfully persuaded over 300 individuals to register as donors on the national organ donor registry
+
+  - title: Material Analysis Researcher
+    company: University of South Carolina, Jefferson Lab
+    location: Columbia, SC
+    duration: Jun 2022 - Oct 2022
+    responsibilities:
+      - Enhanced high energy physics research by developing C++ analysis code to process simulated data for various magnet materials, leading to potential cost savings of over \$1,000,000
+      - Contributed to the design of a muon detection system for a new particle accelerator using data analysis
+      - Strengthened the magnet material effect study in high energy physics using data analysis through SSH
+  
+  - title: Data Visualization Researcher
+    company: University of South Carolina, Digital Research Services
+    location: Columbia, SC
+    duration: Jan 2022 - Apr 2022
+    responsibilities:
+      - Designed interactive, web-based documents and tools for data visualizations under the Digital Research Services department
+      - Strengthened the University Library's data analysis tools for public and future use
+
+  - title: Artificial Intelligence Intern
+    company: Clemson University
+    location: Columbia, SC
+    duration: Jun 2020 - Nov 2020
+    responsibilities:
+      - Created Python machine learning algorithms to beat games
+      - Presented these implementations at the GSSM Annual Research Colloquium and SCJAS 2021
 
 awards:
   - name: McNAIR Junior Fellowship
@@ -85,13 +126,17 @@ awards:
   - name: Research Presentation at CEU
     description: to computer science and nuclear physics professionals
     date: Oct 2022
+  - name: SCJAS 2021 1st Place
+    description: in recognition of outstanding oral presentation presented for C.S. research
+    date: Apr 2021
 
 projects:
   - name: "Segify: Semantic Segmentation for Localized Artistic Effects"
     github: https://github.com/g-nitin/stylized-segmentation
     description:
-      - Developed a novel segment-based neural style transfer approach, integrating AdaIN layers with the Segment Anything model for real-time and accurate segmentation
-      - Created an interactive user interface for user-guided selection of content, style, and target regions, enhancing artistic image manipulation with localized style control
+      - Developed a novel approach for segment-based neural style transfer, combining AdaIN layers for real-time style transfer with the Segment Anything model for accurate segmentation
+      - Implemented an interactive user interface, enabling user-guided selection of content, style, target regions, and style loss weights for creative exploration
+      - The project offered a user-centric solution for artistic image manipulation, surpassing the limitations of traditional methods by providing localized style control
 
   - name: Deep Learning & Autoencoders for Colorization
     github: https://github.com/g-nitin/convolutional-autoencoder
