@@ -6,15 +6,15 @@ highlighter:      pygments
 permalink:        pretty
 
 # Setup
-title:            Nitin Gupta
-description:      'Personal Portfolio'
-baseurl:           "https://g-nitin.github.io/portfolio/"
+title:            "Nitin Gupta"
+description:      "Personal Portfolio"
+baseurl:          "https://g-nitin.github.io/portfolio"
 url:              "https://g-nitin.github.io/portfolio/"
 github_username:  "g-nitin"
 
-author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+# author:
+#   name:           'Mark Otto'
+#   url:            https://twitter.com/mdo
 
 paginate:         5
 
@@ -27,5 +27,5 @@ plugins:
 # Custom vars
 version:          2.1.0
 
-github:
-  repo:           https://github.com/poole/hyde
+# github:
+#   repo:           https://github.com/poole/hyde

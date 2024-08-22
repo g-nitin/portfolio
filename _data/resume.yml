@@ -1,3 +1,4 @@
+# _data/resume.yml
 personal_info:
   name: Nitin Gupta
   email: niting1209@gmail.com
@@ -15,7 +16,7 @@ education:
     duration: Aug 2021 - May 2025
     details:
       - Minors in Mathematics, Data Science
-      - President's Honor List (Fall '24)
+      - President's Honor List (since Aug '21)
       - "Relevant coursework: Artificial Intelligence, Big Data Analytics, Software Engineering, Database Design"
 
 skills:
@@ -46,17 +47,54 @@ experience:
     location: Columbia, SC
     duration: Aug 2024 - Present
     responsibilities:
-      - Conducting comprehensive traffic data analysis for the South Carolina Department of Transportation by identifying collision patterns and evaluating safety programs
-      - Developing innovative chatbot systems to promote voter participation among vulnerable groups and automated literature categorization tools, contributing to advancements in AI applications and civic engagement
+      - Conducting traffic data analysis for the SCDEC by identifying collision patterns and evaluating safety programs
+      - Developing innovative chatbot systems to promote voter participation among vulnerable groups
+      - Developing automated literature categorization tools, contributing to advancements in AI applications
+
+  - title: Explainable AI Research Intern
+    company: University of South Carolina, AIISC
+    location: Columbia, SC
+    duration: May 2024 - Aug 2024
+    responsibilities:
+      - Developed a novel framework integrating Planning Ontology with LLMs to generate transparent, context-aware explanations for AI-generated plans
+      - Demonstrated significant improvements in reasoning capabilities of smaller LLMs through ontology-enhanced prompts, contributing to the field of Explainable AI by enhancing user understanding and trust
+
+  - title: Machine Learning Researcher
+    company: University of South Carolina, Digital Research Services
+    location: Columbia, SC
+    duration: Aug 2022 - Apr 2024
+    responsibilities:
+      - Conducted data mining on South Carolina Laws using Python and Natural Language Processing
+      - Trained machine-learning algorithms to study the prepared session laws and identify Jim Crow Language
+
+  - title: Volunteering Ambassador
+    company: Trew Friends
+    location: Columbia, SC
+    duration: Aug 2021 - Present
+    responsibilities:
+      - Promoted organ, eye, and tissue donation at the University of South Carolina, informing and educating people about the importance of donation
+      - Successfully persuaded over 300 individuals to register as donors on the national organ donor registry
 
 awards:
   - name: McNAIR Junior Fellowship
     description: for undergraduate computer science research
     date: May 2024
+  - name: Phi Beta Kappa Freshman Award
+    description: for outstanding academic performance at USC
+    date: Apr 2023
+  - name: Research Presentation at CEU
+    description: to computer science and nuclear physics professionals
+    date: Oct 2022
 
 projects:
   - name: "Segify: Semantic Segmentation for Localized Artistic Effects"
     github: https://github.com/g-nitin/stylized-segmentation
     description:
-      - Developed a novel segment-based neural style transfer approach, integrating AdaIN layers with the Segment Anything model for real-time and accurate segmentation.
-      - Created an interactive user interface for user-guided selection of content, style, and target regions, enhancing artistic image manipulation with localized style control.
+      - Developed a novel segment-based neural style transfer approach, integrating AdaIN layers with the Segment Anything model for real-time and accurate segmentation
+      - Created an interactive user interface for user-guided selection of content, style, and target regions, enhancing artistic image manipulation with localized style control
+
+  - name: Deep Learning & Autoencoders for Colorization
+    github: https://github.com/g-nitin/convolutional-autoencoder
+    description:
+      - Developed and trained a convolutional autoencoder for accurate image colorization of black and white photographs using Python and PyTorch
+      - Trained the model on nearly 28,000 images real-world images from the Google Landmarks dataset

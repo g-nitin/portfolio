@@ -15,6 +15,7 @@ title: Skills
 - {{ skill }}
 {% endfor %}
 
+---
 ## Languages
 
 ### Native
