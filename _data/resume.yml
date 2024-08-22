@@ -1,0 +1,62 @@
+personal_info:
+  name: Nitin Gupta
+  email: niting1209@gmail.com
+  phone: "+1 803 470 9214"
+  linkedin: niting9
+  github: g-nitin
+  location: Columbia, SC
+  portfolio: https://g-nitin.github.io/portfolio/
+
+education:
+  - institution: University of South Carolina
+    location: Columbia, SC
+    degree: B.S. in Computer Science
+    gpa: 4.0/4.0
+    duration: Aug 2021 - May 2025
+    details:
+      - Minors in Mathematics, Data Science
+      - President's Honor List (Fall '24)
+      - "Relevant coursework: Artificial Intelligence, Big Data Analytics, Software Engineering, Database Design"
+
+skills:
+  advanced:
+    - Python
+    - Java
+    - C++
+    - Linux
+    - git
+    - LaTeX
+  intermediate:
+    - PyTorch
+    - SQL
+    - NoSQL
+    - R
+    - Apache Hadoop
+  languages:
+    native:
+      - English
+      - Hindi
+      - Punjabi
+    proficient:
+      - Spanish
+
+experience:
+  - title: AI Researcher
+    company: University of South Carolina, AIISC
+    location: Columbia, SC
+    duration: Aug 2024 - Present
+    responsibilities:
+      - Conducting comprehensive traffic data analysis for the South Carolina Department of Transportation by identifying collision patterns and evaluating safety programs
+      - Developing innovative chatbot systems to promote voter participation among vulnerable groups and automated literature categorization tools, contributing to advancements in AI applications and civic engagement
+
+awards:
+  - name: McNAIR Junior Fellowship
+    description: for undergraduate computer science research
+    date: May 2024
+
+projects:
+  - name: "Segify: Semantic Segmentation for Localized Artistic Effects"
+    github: https://github.com/g-nitin/stylized-segmentation
+    description:
+      - Developed a novel segment-based neural style transfer approach, integrating AdaIN layers with the Segment Anything model for real-time and accurate segmentation.
+      - Created an interactive user interface for user-guided selection of content, style, and target regions, enhancing artistic image manipulation with localized style control.
