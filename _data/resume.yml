@@ -30,25 +30,48 @@ education:
 
 skills:
   advanced:
-    - Python
-    - Java
-    - C++
-    - Linux
-    - git
-    - LaTeX
+    - name: Python
+      icon: https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg
+      url: https://www.python.org/
+    - name: C++
+      icon: https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/cplusplus-colored.svg
+      url: https://docs.microsoft.com/en-us/cpp/?view=msvc-170
+    - name: Java
+      icon: https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/java-colored.svg
+      url: https://www.oracle.com/java/
+    - name: Linux
+      icon: https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/linux-colored.svg
+      url: https://www.linux.org
+    - name: Git
+      icon: https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/git-colored.svg
+      url: https://git-scm.com/
+    - name: LaTeX
+      icon: https://user-images.githubusercontent.com/5700795/49007377-3bac3d00-f163-11e8-8172-cdad5fde4c8c.png
+      url: https://www.latex-project.org/
   intermediate:
-    - PyTorch
-    - SQL
-    - NoSQL
-    - R
-    - Apache Hadoop
-  languages:
-    native:
-      - English
-      - Hindi
-      - Punjabi
-    proficient:
-      - Spanish
+    - name: PyTorch
+      icon: https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/pytorch-colored.svg
+      url: https://pytorch.org/
+    - name: SQL
+      icon: https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mysql-colored.svg
+      url: https://www.mysql.com/
+    - name: NoSQL
+      icon: https://static.thenounproject.com/png/4562629-200.png
+      url: https://www.mongodb.com/nosql-explained
+    - name: R
+      icon: https://user-images.githubusercontent.com/33158051/103333492-1d992100-4a3c-11eb-8cd4-e83cb2c44895.png
+      url: https://www.r-project.org/
+    - name: Apache Hadoop
+      icon: https://icon.icepanel.io/Technology/svg/Apache-Hadoop.svg
+      url: https://hadoop.apache.org/
+
+languages:
+  native:
+    - English
+    - Hindi
+    - Punjabi
+  proficient:
+    - Spanish
 
 experience:
   - title: AI Researcher
@@ -56,14 +79,12 @@ experience:
     location: Columbia, SC
     duration: Aug 2024 - Present
     responsibilities:
-      - Conducting traffic data analysis for the SCDEC by identifying collision patterns and evaluating safety programs
+      - Conducting research on AI applications in social good, focusing on voter engagement and literature categorization under Dr. Biplav Srivastava
       - Developing innovative chatbot systems to promote voter participation among vulnerable groups
       - Developing automated literature categorization tools, contributing to advancements in AI applications
     links:
-      - text: AIISC Website
-        url: https://aiisc.ai/
-      - text: Project Page
-        url: https://example.com/project
+      - text: AI4Society Research Group
+        url: https://ai4society.github.io/
 
   - title: Explainable AI Research Intern
     company: University of South Carolina, AIISC
@@ -73,15 +94,31 @@ experience:
       - Developed a novel framework integrating Planning Ontology with LLMs to generate transparent, context-aware explanations for AI-generated plans
       - Demonstrated significant improvements in reasoning capabilities of smaller LLMs through ontology-enhanced prompts, contributing to the field of Explainable AI by enhancing user understanding and trust
       - Presented research findings at the 2024 Summer Research Symposium, receiving positive feedback from industry professionals
+      - Also, worked on conducted traffic data analysis for the SCDEC by identifying collision patterns and evaluating safety programs
+      - Worked under Dr. Biplay Srivastava and PhD student Bharath Muppasani for the Plan Explanation Research Project and the SCDEC Traffic Analysis Project
+    links:
+      - text: GitHub Repository for Plan Explanation Research
+        url: https://github.com/g-nitin/Plan-Explanations
+      - text: Research Symposium
+        url: https://sc.edu/about/offices_and_divisions/undergraduate_research/share_your_work/research-presentations/symposium.php
+      - text: Traffic Analysis Overview
+        url: https://ai4society.github.io/projects/traffic_page/index.html
 
   - title: Machine Learning Researcher
     company: University of South Carolina, Digital Research Services
     location: Columbia, SC
     duration: Aug 2022 - Apr 2024
     responsibilities:
+      - Worked with teams at the University of Virginia, University of North Carolina Chapel Hill, and the University of South Carolina to develop develop ML methods for the OnTheBooks project
       - Conducted data mining on South Carolina Laws using Python and Natural Language Processing
-      - Trained machine-learning (ML) algorithms to study the prepared session laws and identify Jim Crow Languagee
-      - Worked with teams at the University of Virginia, University of North Carolina Chapel Hill, and the University of South Carolina to develop develop ML methods
+      - Trained machine-learning (ML) algorithms to study the prepared session laws and identify Jim Crow Language
+    links:
+      - text: GitHub for SC Laws Analysis
+        url: https://github.com/g-nitin/OnTheBooksUofSC
+      - text: OnTheBooks Project
+        url: https://onthebooks.lib.unc.edu/
+      - text: Digital Research Services
+        url: https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/index.php
 
   - title: Volunteering Ambassador
     company: Trew Friends
@@ -90,6 +127,9 @@ experience:
     responsibilities:
       - Promoted organ, eye, and tissue donation at the University of South Carolina, informing and educating people about the importance of donation
       - Successfully persuaded over 300 individuals to register as donors on the national organ donor registry
+    links:
+      - text: Trew Friends
+        url: https://trewfriends.org/
 
   - title: Material Analysis Researcher
     company: University of South Carolina, Jefferson Lab
@@ -99,6 +139,9 @@ experience:
       - Enhanced high energy physics research by developing C++ analysis code to process simulated data for various magnet materials, leading to potential cost savings of over \$1,000,000
       - Contributed to the design of a muon detection system for a new particle accelerator using data analysis
       - Strengthened the magnet material effect study in high energy physics using data analysis through SSH
+    links:
+      - text: Jefferson Lab
+        url: https://www.jlab.org/
   
   - title: Data Visualization Researcher
     company: University of South Carolina, Digital Research Services
@@ -107,6 +150,11 @@ experience:
     responsibilities:
       - Designed interactive, web-based documents and tools for data visualizations under the Digital Research Services department
       - Strengthened the University Library's data analysis tools for public and future use
+    links:
+      - text: Digital Research Services
+        url: https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/index.php
+      - text: Draft of Data Visualization Tools
+        url: https://github.com/g-nitin/Library-Data-Visualization
 
   - title: Artificial Intelligence Intern
     company: Clemson University
@@ -115,6 +163,7 @@ experience:
     responsibilities:
       - Created Python machine learning algorithms to beat games
       - Presented these implementations at the GSSM Annual Research Colloquium and SCJAS 2021
+      - Worked under Dr. Yuyuan "Lance" Ouyang
 
 awards:
   - name: McNAIR Junior Fellowship
