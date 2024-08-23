@@ -11,6 +11,16 @@ Hello! I'm Nitin Gupta, a Computer Science student at the University of South Ca
 I'm passionate about artificial intelligence, data science, and software engineering. With a strong foundation in computer science and mathematics, I strive to create innovative solutions to real-world problems.
 " %}
 
+---
+
+### Resume
+
+For a quick overview about me, download my resume. 
+
+_The last few characters in the name of the file (after the \'\_\') suggest the date of last update._
+
+<a href="{{ site.baseurl }}/_data/nitin_gupta_resume.pdf" class="resume-download-btn" download>Download Resume (PDF)</a>
+
 <!-- {% include section.html title="Featured Project" content="
 ### Segify: Semantic Segmentation for Localized Artistic Effects
 

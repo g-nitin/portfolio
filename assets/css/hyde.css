@@ -268,3 +268,19 @@ a.sidebar-nav-item:focus {
 .skills-container + h3 {
   margin-top: 1.5rem;
 }
+
+.resume-download-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #268bd2;  /* Hyde theme blue color */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.resume-download-btn:hover {
+  background-color: #1a6091;
+  text-decoration: none;
+}
