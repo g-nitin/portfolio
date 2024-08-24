@@ -77,13 +77,13 @@ experience:
   - title: AI Researcher
     company: University of South Carolina, AIISC
     location: Columbia, SC
-    duration: Aug 2024 - Present
+    duration: Aug 2024 - _Present_
     responsibilities:
-      - Conducting research on AI applications in social good, focusing on voter engagement and literature categorization under Dr. Biplav Srivastava
-      - Developing innovative chatbot systems to promote voter participation among vulnerable groups
-      - Developing automated literature categorization tools, contributing to advancements in AI applications
+      - Conducting research on AI applications in social good, focusing on voter engagement and literature categorization under [Dr. Biplav Srivastava](https://sites.google.com/site/biplavsrivastava)
+      - Developing innovative <b>chatbot systems</b> to promote voter participation among vulnerable groups
+      - Developing <b>automated literature categorization tools</b>, contributing to advancements in AI applications
     links:
-      - text: AI4Society Research Group
+      - text: The AI4Society Research Group
         url: https://ai4society.github.io/
 
   - title: Explainable AI Research Intern
@@ -91,11 +91,11 @@ experience:
     location: Columbia, SC
     duration: May 2024 - Aug 2024
     responsibilities:
-      - Developed a novel framework integrating Planning Ontology with LLMs to generate transparent, context-aware explanations for AI-generated plans
+      - Developed a novel framework integrating <b>Planning Ontology with LLMs</b> to generate transparent, context-aware explanations for AI-generated plans
       - Demonstrated significant improvements in reasoning capabilities of smaller LLMs through ontology-enhanced prompts, contributing to the field of Explainable AI by enhancing user understanding and trust
       - Presented research findings at the 2024 Summer Research Symposium, receiving positive feedback from industry professionals
-      - Also, worked on conducted traffic data analysis for the SCDEC by identifying collision patterns and evaluating safety programs
-      - Worked under Dr. Biplay Srivastava and PhD student Bharath Muppasani for the Plan Explanation Research Project and the SCDEC Traffic Analysis Project
+      - Also, worked on conducted <b>traffic data analysis</b> for the _SCDHEC_, _SCDPS_, _NSCSC_ by identifying collision patterns and evaluating safety programs
+      - Worked under Dr. Biplay Srivastava and PhD student Bharath Muppasani for both projects
     links:
       - text: GitHub Repository for Plan Explanation Research
         url: https://github.com/g-nitin/Plan-Explanations
@@ -103,25 +103,31 @@ experience:
         url: https://sc.edu/about/offices_and_divisions/undergraduate_research/share_your_work/research-presentations/symposium.php
       - text: Traffic Analysis Overview
         url: https://ai4society.github.io/projects/traffic_page/index.html
+      - text: SCDHEC
+        url: https://scdhec.gov/
+      - text: SCDPS
+        url: https://scdps.sc.gov/
+      - text: NSCSC
+        url: https://www.scnsc.org/
 
   - title: Machine Learning Researcher
-    company: University of South Carolina, Digital Research Services
+    company: University of South Carolina, UNC Chapel Hill, UVA
     location: Columbia, SC
     duration: Aug 2022 - Apr 2024
     responsibilities:
-      - Worked with teams at the University of Virginia, University of North Carolina Chapel Hill, and the University of South Carolina to develop develop ML methods for the OnTheBooks project
+      - Worked with teams at the _University of Virginia_, _University of North Carolina Chapel Hill_, and the _University of South Carolina_ to develop develop ML methods for the <b>OnTheBooks</b> project
       - Conducted data mining on South Carolina Laws using Python and Natural Language Processing
       - Trained machine-learning (ML) algorithms to study the prepared session laws and identify Jim Crow Language
     links:
       - text: GitHub for SC Laws Analysis
         url: https://github.com/g-nitin/OnTheBooksUofSC
-      - text: OnTheBooks Project
+      - text: OnTheBooks Project (UNC Chapel Hill)
         url: https://onthebooks.lib.unc.edu/
-      - text: Digital Research Services
+      - text: Digital Research Services (DRS)
         url: https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/index.php
 
   - title: Volunteering Ambassador
-    company: Trew Friends
+    company: Trew Friends, University of South Carolina
     location: Columbia, SC
     duration: Aug 2021 - Present
     responsibilities:
@@ -157,7 +163,7 @@ experience:
         url: https://github.com/g-nitin/Library-Data-Visualization
 
   - title: Artificial Intelligence Intern
-    company: Clemson University
+    company: Clemson University, South Carolina Governor's School for Science and Mathematics
     location: Columbia, SC
     duration: Jun 2020 - Nov 2020
     responsibilities:

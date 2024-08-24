@@ -1,22 +1,9 @@
 ---
 layout: page
-title: Education
+title: Skills and Education
 ---
-## Education
-
-{% for edu in site.data.resume.education %}
-## {{ edu.institution }}
-**{{ edu.degree }}** - GPA: {{ edu.gpa }}  
-*{{ edu.location }}*  
-{{ edu.duration }}
-
-{% for detail in edu.details %}
-- {{ detail }}
-{% endfor %}
-
-{% endfor %}
-
 ---
+<br>
 ## Technical Skills
 
 ### Advanced
@@ -48,7 +35,21 @@ title: Education
 {% for lang in site.data.resume.languages.proficient %}
 | {{ lang }} {% unless forloop.last %} | {% endunless %}{% endfor %}
 
+---
+<br>
+# Education
 
+{% for edu in site.data.resume.education %}
+## {{ edu.institution }}
+**{{ edu.degree }}** - GPA: {{ edu.gpa }}  
+*{{ edu.location }}*  
+{{ edu.duration }}
+
+{% for detail in edu.details %}
+- {{ detail }}
+{% endfor %}
+
+{% endfor %}
 <!--  -->
 <!-- ## Technical Skills
 
