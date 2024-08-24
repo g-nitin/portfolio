@@ -13,13 +13,13 @@ I'm passionate about artificial intelligence, data science, and software enginee
 
 ---
 
-### Resume
+### Résumé
 
-For a quick overview about me, download my resume. 
+For a quick overview about me, download my résumé. 
 
 _The last few characters in the name of the file (after the \'\_\') suggest the date of last update._
 
-<a href="{{ site.baseurl }}/_data/Nitin_Gupta_Résumé_2024-08-23.pdf" class="resume-download-btn" download>Download Resume (PDF)</a>
+<a href="{{ site.baseurl }}/_data/Nitin_Gupta_Résumé_2024-08-23.pdf" class="resume-download-btn" download>Download Résumé (PDF)</a>
 
 <!-- {% include section.html title="Featured Project" content="
 ### Segify: Semantic Segmentation for Localized Artistic Effects
