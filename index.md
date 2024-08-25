@@ -19,7 +19,7 @@ For a quick overview about me, download my résumé.
 
 _The last few characters in the name of the file (after the \'\_\') suggest the date of last update._
 
-<a href="Nitin_Gupta_Résumé_2024-08-24.pdf" class="resume-download-btn" download>Download Résumé (PDF)</a>
+<a href="assets/Nitin_Gupta_Résumé_2024-08-24.pdf" class="resume-download-btn">Download Résumé (PDF)</a>
 
 <!-- {% include section.html title="Featured Project" content="
 ### Segify: Semantic Segmentation for Localized Artistic Effects
