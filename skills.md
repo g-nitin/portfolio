@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Skills & Education
+title: Skills
 ---
 ---
 ## Technical Skills
