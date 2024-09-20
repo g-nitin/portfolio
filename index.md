@@ -13,20 +13,18 @@ I'm passionate about artificial intelligence, data science, and software enginee
 
 ---
 
-### Résumé
+## Current Work 
+### AI Researcher @ [AIISC, Columbia](https://aiisc.ai/)
+ - Conducting research on AI applications in social good, focusing on voter engagement and literature categorization under [Dr. Biplav Srivastava](https://sites.google.com/site/biplavsrivastava) in the [AI4Society Research Group](https://ai4society.github.io/) at [AIISC](https://aiisc.ai/).
+ - Developing innovative <b>chatbot systems</b> to promote voter participation among vulnerable groups
+ - Developing <b>automated literature categorization tools</b>, contributing to advancements in AI applications
+
+---
+
+## Résumé
 
 For a quick overview about me, download my résumé. 
 
 _The last few characters in the name of the file (after the \'\_\') suggest the date of last update._
 
-<a href="assets/Nitin_Gupta_Résumé_2024-08-24.pdf" class="resume-download-btn">Download Résumé (PDF)</a>
-
-<!-- {% include section.html title="Featured Project" content="
-### Segify: Semantic Segmentation for Localized Artistic Effects
-
-- Developed a novel segment-based neural style transfer approach
-- Integrated AdaIN layers with the Segment Anything model
-- Created an interactive user interface for artistic image manipulation
-
-[View on GitHub](https://github.com/g-nitin/stylized-segmentation)
-" %} -->
+<a href="assets/Nitin_Gupta_Résumé_2024-09-20.pdf" class="resume-download-btn">Download Résumé (PDF)</a>

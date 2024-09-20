@@ -74,18 +74,6 @@ languages:
     - Spanish
 
 experience:
-  - title: AI Researcher
-    company: University of South Carolina, AIISC
-    location: Columbia, SC
-    duration: Aug 2024 - _Present_
-    responsibilities:
-      - Conducting research on AI applications in social good, focusing on voter engagement and literature categorization under [Dr. Biplav Srivastava](https://sites.google.com/site/biplavsrivastava)
-      - Developing innovative <b>chatbot systems</b> to promote voter participation among vulnerable groups
-      - Developing <b>automated literature categorization tools</b>, contributing to advancements in AI applications
-    links:
-      - text: The AI4Society Research Group
-        url: https://ai4society.github.io/
-
   - title: Explainable AI Research Intern
     company: University of South Carolina, AIISC
     location: Columbia, SC

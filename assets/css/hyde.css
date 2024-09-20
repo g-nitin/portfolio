@@ -284,3 +284,12 @@ a.sidebar-nav-item:focus {
   background-color: #1a6091;
   text-decoration: none;
 }
+
+.profile-pic {
+  width: 230px;
+  height: 230px;
+  border-radius: 80%;
+  margin: 0 auto 1rem;
+  display: block;
+  object-fit: cover;
+}

@@ -45,6 +45,9 @@
 <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
+      {% if page.url == "/" %}
+      <img src="{{ site.baseurl }}/assets/images/profile.jpg" alt="Profile Picture" class="profile-pic">
+      {% endif %}
       <h1>
         <a href="{{ site.baseurl }}">
           Nitin Gupta
@@ -58,8 +61,12 @@
       <a class="sidebar-nav-item{% if page.title == "Experience" %} active{% endif %}" href="{{ site.baseurl }}/experience">Experience</a>
 
       <a class="sidebar-nav-item{% if page.title == "Projects" %} active{% endif %}" href="{{ site.baseurl }}/projects">Projects</a>
+      
+      <a class="sidebar-nav-item{% if page.title == "Awards" %} active{% endif %}" href="{{ site.baseurl }}/awards">Awards</a>
 
-      <a class="sidebar-nav-item{% if page.title == "Education-Skills" %} active{% endif %}" href="{{ site.baseurl }}/education-skills"> Skills & Education</a>
+      <a class="sidebar-nav-item{% if page.title == "Skills" %} active{% endif %}" href="{{ site.baseurl }}/skills">Skills</a>
+
+      <a class="sidebar-nav-item{% if page.title == "Education" %} active{% endif %}" href="{{ site.baseurl }}/education">Education</a>
       
       <!-- <a class="sidebar-nav-item{% if page.title == "Blog" %} active{% endif %}" href="{{ site.baseurl }}/blog">Blog</a> -->
     </nav>
