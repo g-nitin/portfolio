@@ -91,12 +91,6 @@ experience:
         url: https://sc.edu/about/offices_and_divisions/undergraduate_research/share_your_work/research-presentations/symposium.php
       - text: Traffic Analysis Overview
         url: https://ai4society.github.io/projects/traffic_page/index.html
-      - text: SCDHEC
-        url: https://scdhec.gov/
-      - text: SCDPS
-        url: https://scdps.sc.gov/
-      - text: NSCSC
-        url: https://www.scnsc.org/
 
   - title: Machine Learning Researcher
     company: University of South Carolina, UNC Chapel Hill, UVA
