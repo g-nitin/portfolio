@@ -28,3 +28,11 @@ For a quick overview about me, download my résumé.
 _The last few characters in the name of the file (after the \'\_\') suggest the date of last update._
 
 <a href="assets/Nitin_Gupta_Résumé_2024-09-20.pdf" class="resume-download-btn">Download Résumé (PDF)</a>
+
+---
+<footer>
+    <p><small><i>The source code for this website can be found 
+        <a href="https://github.com/g-nitin/portfolio" target="_blank">here</a>. It was built upon the 
+        <a href="https://github.com/poole/hyde" target="_blank">Hyde theme by Mark Otto</a>. 
+    </i></small></p>
+</footer>
