@@ -25,9 +25,7 @@ I'm passionate about artificial intelligence, data science, and software enginee
 
 For a quick overview about me, download my résumé. 
 
-_The last few characters in the name of the file (after the \'\_\') suggest the date of last update._
-
-<a href="assets/Nitin_Gupta_Résumé_2024-09-20.pdf" class="resume-download-btn">Download Résumé (PDF)</a>
+<a href="assets/Nitin_Gupta_Résumé.pdf" class="resume-download-btn">Download Résumé (PDF)</a>
 
 ---
 <footer>
