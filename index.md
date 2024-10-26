@@ -25,7 +25,7 @@ I'm passionate about artificial intelligence, data science, and software enginee
 
 For a quick overview about me, download my résumé. 
 
-<a href="assets/Nitin_Gupta_Résumé.pdf" class="resume-download-btn">Download Résumé (PDF)</a>
+<a href="https://g-nitin.github.io/portfolio/assets/Nitin_Gupta_Résumé.pdf" class="resume-download-btn">Download Résumé (PDF)</a>
 
 ---
 <footer>
