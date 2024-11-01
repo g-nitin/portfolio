@@ -3,7 +3,6 @@ layout: page
 title: Awards
 ---
 ---
-## Awards
 
 ### **McNAIR Junior Fellowship**
 - For undergraduate computer science research.

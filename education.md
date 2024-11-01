@@ -3,41 +3,27 @@ layout: page
 title: Education
 ---
 ---
-# Education
 
-{% for edu in site.data.resume.education %}
-## {{ edu.institution }}
-**{{ edu.degree }}** - GPA: {{ edu.gpa }}  
-*{{ edu.location }}*  
-{{ edu.duration }}
+## University of South Carolina
+**B.S. in Computer Science** - GPA: 4.0/4.0
 
-{% for detail in edu.details %}
-- {{ detail }}
-{% endfor %}
+*Columbia, SC*
 
-{% endfor %}
-<!--  -->
-<!-- ## Technical Skills
+Aug 2021 - May 2025
 
-### Advanced
-{% for skill in site.data.resume.skills.advanced %}
-- {{ skill }}
-{% endfor %}
-
-### Intermediate
-{% for skill in site.data.resume.skills.intermediate %}
-- {{ skill }}
-{% endfor %}
+- Minors in Mathematics, Data Science
+- President's Honor List (since Aug '21)
+- **Relevant coursework**: Artificial Intelligence, Big Data Analytics, Software Engineering, Database Design
 
 ---
-## Languages
 
-### Native
-{% for lang in site.data.resume.languages.native %}
-- {{ lang }}
-{% endfor %}
+## South Carolina Governor's School for Science and Mathematics
+**High School Diploma** - GPA: 4.9/4.0
 
-### Proficient
-{% for lang in site.data.resume.languages.proficient %}
-- {{ lang }}
-{% endfor %} -->
+*Hartsville, SC*
+
+Aug 2019 - May 2021
+
+- Participated with Pulsar Search Collaboratory
+- SC State Finance Challenge (Joint winner)
+- Sir Issac Newton Exam (Distinction)
