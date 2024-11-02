@@ -10,7 +10,7 @@ title: Publications
       Towards Enhancing Road Safety in South Carolina Using Insights from Traffic and Driver-Education Data
     </div>
     <div class="publication-authors">
-      N. Gupta, B. Muppasani, et al.
+      N. Gupta, B. Muppasani, S. Srivastava, A. Goel, R. Hartfield, T. Buehrig, M. Reck, E. Kennedy, K. Poore, K. Tremblay, B. Srivastava, and L. Vasconcelos 
     </div>
     <div class="publication-venue">
       AAAI 2025 (Accepted)
@@ -36,7 +36,7 @@ title: Publications
       ElectionBot-SC: A Tool to Understand and Compare Chatbot Behavior for Safe Election Information in South Carolina
     </div>
     <div class="publication-authors">
-      B. Muppasani, K. Lakkaraju, N. Gupta, V. Nagpal, S. Jones, B. Srivastava
+      B. Muppasani, K. Lakkaraju, N. Gupta, V. Nagpal, S. Jones, and B. Srivastava
     </div>
     <div class="publication-venue">
       AAAI 2025 (Under Review)
@@ -62,7 +62,7 @@ title: Publications
       Building a Plan Ontology to Represent and Exploit Planning Knowledge and Its Applications
     </div>
     <div class="publication-authors">
-      B. Muppasani, N. Gupta, V. Pallagani, B. Srivastava, et al.
+      B. Muppasani, N. Gupta, V. Pallagani, B. Srivastava, R. Mutharaju, M. N. Huhns, and V. Narayanan
     </div>
     <div class="publication-venue">
       CODS-COMAD 2024 (Accepted)
