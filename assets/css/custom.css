@@ -1,28 +1,44 @@
-/* Fix sidebar spacing */
+/* Base styles (mobile first) */
 .content {
-    padding-left: 0;  /* Remove default left padding */
+    padding: 2rem;  /* Add padding on all sides for mobile */
 }
 
 .sidebar {
-    padding: 2rem 1rem;  /* Adjust sidebar padding */
+    padding: 2rem 1rem;
 }
 
+/* Desktop styles */
 @media (min-width: 48em) {
     .content {
-        max-width: none;  /* Allow content to use full width */
-        margin-left: 20rem;  /* Align with sidebar width */
-        margin-right: 2rem;  /* Add some right margin */
+        max-width: none;
+        margin-left: 20rem;
+        margin-right: 2rem;
     }
 
     .sidebar {
-        width: 18rem;  /* Adjust sidebar width if needed */
+        width: 18rem;
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
     }
 }
 
-/* If there's still some unwanted space, you might need this */
+/* Container reset */
 .container {
-    padding-left: 0;
-    padding-right: 0;
+    max-width: none;
+}
+
+/* Additional safety measure for mobile */
+@media (max-width: 48em) {
+    .content {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .sidebar {
+        width: 100%;
+    }
 }
 
 .main-content {
