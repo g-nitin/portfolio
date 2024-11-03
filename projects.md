@@ -4,19 +4,73 @@ title: Projects
 ---
 
 <div class="projects-section">
+
+    <div class="project-card">
+        <div class="project-header">
+            <span class="project-status status-ongoing">Ongoing</span>
+            <h2 class="project-title">Beacon Of Hope: A Personalized Meal Plan Recommender </h2>
+        </div>
+
+        <!-- If you have a project image, uncomment this -->
+        <!-- <img src="path_to_image.jpg" alt="Segify Demo" class="project-image"> -->
+
+        <div class="project-description">
+            A personalized meal plan recommender system that leverages machine learning to provide tailored nutrition recommendations while providing insightful visualizations.
+        </div>
+
+        <div class="project-features">
+            <ul>
+                <li>Developing interactive meal exploration and categorization</li>
+                <li>Desiging visual comparison of nutritional information</li>
+                <li>Creating health and demographic-aware filtering system</li>
+            </ul>
+        </div>
+
+        <div class="project-tech">
+            <span class="tech-tag">Node.js</span>
+            <span class="tech-tag">Python</span>
+        </div>
+    </div>
+
+    <div class="project-card">
+        <div class="project-header">
+            <span class="project-status status-ongoing">Ongoing</span>
+            <h2 class="project-title">RoostAI: A University Centered Chatbot</h2>
+        </div>
+
+        <!-- If you have a project image, uncomment this -->
+        <!-- <img src="path_to_image.jpg" alt="Segify Demo" class="project-image"> -->
+
+        <div class="project-description">
+            A RAG-based chatbot for the University of South Carolina, designed to assist students, faculty, and staff with information and resources.
+        </div>
+
+        <div class="project-features">
+            <ul>
+                <li>Developing a conversational AI system using the RAG framework, enabling natural language interactions with the chatbot</li>
+                <li>Designing a user-friendly interface for the chatbot, allowing users to ask questions, get answers, and explore campus services</li>
+            </ul>
+        </div>
+
+        <div class="project-tech">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">LLMs + RAG</span>
+        </div>
+    </div>
+
     <div class="project-card">
         <div class="project-header">
             <span class="project-status status-completed">Completed</span>
             <h2 class="project-title">Segify: Semantic Segmentation for Localized Artistic Effects</h2>
         </div>
-        
+
         <!-- If you have a project image, uncomment this -->
         <!-- <img src="path_to_image.jpg" alt="Segify Demo" class="project-image"> -->
-        
+
         <div class="project-description">
             A novel approach combining semantic segmentation with neural style transfer for precise artistic control.
         </div>
-        
+
         <div class="project-features">
             <ul>
                 <li>Developed a novel approach for segment-based neural style transfer, combining AdaIN layers for real-time style transfer with the Segment Anything model for accurate segmentation</li>
@@ -74,4 +128,5 @@ title: Projects
             </a>
         </div>
     </div>
+
 </div>
