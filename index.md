@@ -22,17 +22,37 @@ title: Home
     </div>
   </section>
 
-  <section class="work-section">
-    <h2 class="section-title">Current Work</h2>
-    <div class="work-card">
-      <h3 class="work-position">AI Researcher @ <a href="https://aiisc.ai/" target="_blank">AIISC, Columbia</a></h3>
-      <ul class="work-details">
-        <li>Conducting research on AI applications in social good, focusing on voter engagement and literature categorization under <a href="https://sites.google.com/site/biplavsrivastava" target="_blank">Dr. Biplav Srivastava</a> in the <a href="https://ai4society.github.io/" target="_blank">AI4Society Research Group</a> at <a href="https://aiisc.ai/" target="_blank">AIISC</a>.</li>
-        <li>Developing innovative <strong>chatbot systems</strong> to promote voter participation among vulnerable groups</li>
-        <li>Developing <strong>automated literature categorization tools</strong>, contributing to advancements in AI applications</li>
-      </ul>
+  <div class="news-section">
+    <h2 class="news-title">Recent Updates</h2>
+    <div class="news-grid">
+        <!-- Publication Update -->
+        <div class="news-item">
+            <div class="news-date">March 2024</div>
+            <span class="news-category category-publication">Publication</span>
+            <div class="news-headline">New Paper Accepted at AAAI 2025</div>
+            <p class="news-description">Our work on enhancing road safety in South Carolina has been accepted at AAAI 2025.</p>
+            <a href="/publications" class="news-link">Read more <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <!-- Experience Update -->
+        <div class="news-item">
+            <div class="news-date">August 2024</div>
+            <span class="news-category category-experience">Experience</span>
+            <div class="news-headline">Started Research Assistantship</div>
+            <p class="news-description">Joined the AI4Society Lab as an Undergraduate Research Assistant.</p>
+            <a href="/experience" class="news-link">View details <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <!-- Project Update -->
+        <!-- <div class="news-item"> -->
+            <!-- <div class="news-date">January 2024</div> -->
+            <!-- <span class="news-category category-project">Project</span> -->
+            <!-- <div class="news-headline">Launched ML Model Deployment Tool</div> -->
+            <!-- <p class="news-description">Released a new tool for streamlining machine learning model deployments.</p> -->
+            <!-- <a href="/projects" class="news-link">Learn more <i class="fas fa-arrow-right"></i></a> -->
+        <!-- </div> -->
     </div>
-  </section>
+  </div>
 
   <section class="resume-section">
     <h2 class="section-title">Résumé</h2>
