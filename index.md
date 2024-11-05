@@ -29,8 +29,8 @@ title: Home
         <div class="news-item">
             <div class="news-date">March 2024</div>
             <span class="news-category category-publication">Publication</span>
-            <div class="news-headline">New Paper Accepted at AAAI 2025</div>
-            <p class="news-description">Our work on enhancing road safety in South Carolina has been accepted at AAAI 2025.</p>
+            <div class="news-headline"><b>2</b> New Papers Accepted at AAAI 2025 & CODS COMAD 2024</div>
+            <p class="news-description">Our work on enhancing road safety in South Carolina and developing a Planning Ontology has been accepted.</p>
             <a href="/publications" class="news-link">Read more <i class="fas fa-arrow-right"></i></a>
         </div>
 

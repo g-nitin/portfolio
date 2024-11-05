@@ -1,9 +1,10 @@
 .news-section {
-    margin: 2rem 0;
+    margin: 2rem auto;
     padding: 2rem;
     background: #f8f9fa;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    max-width: 800px;  /* Match main content width */
 }
 
 .news-title {
@@ -14,11 +15,24 @@
     border-bottom: 2px solid #3498db;
 }
 
+.news-scroll-container {
+    position: relative;
+    padding: 0 3rem;  /* Space for arrows */
+}
+
 .news-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE and Edge */
     gap: 1.5rem;
-    margin-top: 1.5rem;
+    padding: 0.5rem 0;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.news-grid::-webkit-scrollbar {
+    display: none;
 }
 
 .news-item {
@@ -27,6 +41,7 @@
     border-radius: 8px;
     padding: 1.5rem;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
+    flex: 0 0 300px; /* Fixed width for each card */
 }
 
 .news-item:hover {
@@ -86,13 +101,69 @@
     margin-left: 0.25rem;
 }
 
+/* Scroll Arrows */
+.scroll-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border: 1px solid #eaeaea;
+    border-radius: 50%;
+    color: #2c3e50;
+    cursor: pointer;
+    font-size: 1.2rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-decoration: none;
+}
+
+.scroll-arrow:hover {
+    background: #f8f9fa;
+    text-decoration: none;
+}
+
+.scroll-left {
+    left: 0;
+}
+
+.scroll-right {
+    right: 0;
+}
+
+/* CSS-only scroll functionality using anchor links */
+.news-anchor {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    visibility: hidden;
+}
+
 @media (max-width: 768px) {
-    .news-grid {
-        grid-template-columns: 1fr;
+    .news-section {
+        margin: 1.5rem;
+        padding: 1.5rem;
     }
     
+    .news-scroll-container {
+        padding: 0 2rem;
+    }
+    
+    .scroll-arrow {
+        width: 2rem;
+        height: 2rem;
+        font-size: 1rem;
+    }
+}
+
+/* Desktop styles */
+@media (min-width: 48em) {
     .news-section {
-        padding: 1.5rem;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
