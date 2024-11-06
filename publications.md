@@ -14,7 +14,7 @@ title: Publications
     </div>
     <div class="publication-venue">
       AAAI 2025 (Accepted)
-      <a href="https://www.researchgate.net/publication/384867329_Towards_Enhancing_Road_Safety_in_South_Carolina_Using_Insights_from_Traffic_and_Driver-Education_Data" 
+      <a href="https://www.researchgate.net/publication/385590927_Towards_Enhancing_Road_Safety_in_South_Carolina_Using_Insights_from_Traffic_and_Driver-Education_Data" 
          class="publication-link" 
          target="_blank"
          title="View Publication">
