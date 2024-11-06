@@ -31,7 +31,7 @@ title: Home
             <span class="news-category category-publication">Publication</span>
             <div class="news-headline"><b>2</b> New Papers Accepted at AAAI 2025 & CODS COMAD 2024</div>
             <p class="news-description">Our work on enhancing road safety in South Carolina and developing a Planning Ontology has been accepted.</p>
-            <a href="/publications" class="news-link">Read more <i class="fas fa-arrow-right"></i></a>
+            <a href="{{ site.baseurl }}/publications" class="news-link">Read more <i class="fas fa-arrow-right"></i></a>
         </div>
 
         <!-- Experience Update -->
@@ -40,7 +40,7 @@ title: Home
             <span class="news-category category-experience">Experience</span>
             <div class="news-headline">Started Research Assistantship</div>
             <p class="news-description">Joined the AI4Society Lab as an Undergraduate Research Assistant.</p>
-            <a href="/experience" class="news-link">View details <i class="fas fa-arrow-right"></i></a>
+            <a href="{{ site.baseurl }}/experience" class="news-link">View details <i class="fas fa-arrow-right"></i></a>
         </div>
 
         <!-- Project Update -->
@@ -49,7 +49,7 @@ title: Home
             <!-- <span class="news-category category-project">Project</span> -->
             <!-- <div class="news-headline">Launched ML Model Deployment Tool</div> -->
             <!-- <p class="news-description">Released a new tool for streamlining machine learning model deployments.</p> -->
-            <!-- <a href="/projects" class="news-link">Learn more <i class="fas fa-arrow-right"></i></a> -->
+            <!-- <a href="{{ site.baseurl }}/projects" class="news-link">Learn more <i class="fas fa-arrow-right"></i></a> -->
         <!-- </div> -->
     </div>
   </div>
