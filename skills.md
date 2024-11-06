@@ -10,10 +10,18 @@ title: Skills
         <div class="proficiency-level">
             <h3 class="proficiency-title">Advanced</h3>
             <div class="skills-grid">
+
                 <div class="skill-item">
                     <a href="https://www.python.org/" target="_blank" rel="noreferrer">
                         <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg" class="skill-icon" alt="Python"/>
                         <div class="skill-name">Python</div>
+                    </a>
+                </div>
+
+                <div class="skill-item">
+                    <a href="https://pytorch.org/" target="_blank" rel="noreferrer">
+                        <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/pytorch-colored.svg" class="skill-icon" alt="PyTorch"/>
+                        <div class="skill-name">PyTorch</div>
                     </a>
                 </div>
                 
@@ -57,10 +65,11 @@ title: Skills
         <div class="proficiency-level">
             <h3 class="proficiency-title">Intermediate</h3>
             <div class="skills-grid">
+
                 <div class="skill-item">
-                    <a href="https://pytorch.org/" target="_blank" rel="noreferrer">
-                        <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/pytorch-colored.svg" class="skill-icon" alt="PyTorch"/>
-                        <div class="skill-name">PyTorch</div>
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/512px-Unofficial_JavaScript_logo_2.svg.png?20141107110902" class="skill-icon" alt="JavaScript"/>
+                        <div class="skill-name">JavaScript</div>
                     </a>
                 </div>
 
