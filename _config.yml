@@ -8,7 +8,7 @@ permalink:        pretty
 # Setup
 title:            "Nitin Gupta"
 description:      "Personal Portfolio"
-baseurl:          "https://g-nitin.github.io/portfolio/files"
+baseurl:          "https://g-nitin.github.io/portfolio"
 url:              "https://g-nitin.github.io/portfolio/"
 github_username:  "g-nitin"
 
