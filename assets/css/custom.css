@@ -16,16 +16,12 @@
 }
 
 .news-scroll-container {
-    position: relative;
-    padding: 0 3rem;  /* Space for arrows */
+    overflow-x: auto;
 }
 
 .news-grid {
     display: flex;
-    overflow-x: auto;
-    scroll-behavior: smooth;
-    scrollbar-width: none; /* Firefox */
-    -ms-overflow-style: none;  /* IE and Edge */
+    flex-wrap: nowrap; /* Prevents wrapping */
     gap: 1.5rem;
     padding: 0.5rem 0;
 }
@@ -119,6 +115,7 @@
     font-size: 1.2rem;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     text-decoration: none;
+    z-index: 1;  /* Ensures arrows are above content */
 }
 
 .scroll-arrow:hover {
@@ -149,7 +146,7 @@
     }
     
     .news-scroll-container {
-        padding: 0 2rem;
+        -webkit-overflow-scrolling: touch;
     }
     
     .scroll-arrow {

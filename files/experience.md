@@ -16,15 +16,14 @@ title: Experience
         
         <div class="experience-description">
             <ul>
-                <li>Conducting research on AI applications in social good, focusing on voter engagement and literature categorization under <a href="https://sites.google.com/site/biplavsrivastava">Dr. Biplav Srivastava</a> in the AI 4 Society at <a href="https://aiisc.ai/">AIISC</a></li>
-                <li>Developing innovative chatbot systems to promote voter participation among vulnerable groups</li>
-                <li>Developing automated literature categorization tools, contributing to advancements in AI applications</li>
+                <li>Conducting research on AI applications in social good, focusing on Neuro-symbolic AI and Natural Language Processing under <a href="https://sites.google.com/site/biplavsrivastava">Dr. Biplav Srivastava</a> in the AI 4 Society at <a href="https://aiisc.ai/">AIISC</a></li>
             </ul>
         </div>
 
         <div class="skills-tags">
             <span class="skill-tag">AI</span>
-            <span class="skill-tag">Chatbots</span>
+            <span class="skill-tag">Neuro-symbolic AI</span>
+            <span class="skill-tag">NLP</span>
             <span class="skill-tag">Research</span>
         </div>
 

@@ -4,6 +4,7 @@ title: Publications
 ---
 
 <div class="publication-list">
+  
   <!-- AAAI 2025 Paper 1 -->
   <div class="publication">
     <div class="publication-title">
@@ -13,7 +14,7 @@ title: Publications
       N. Gupta, B. Muppasani, S. Srivastava, A. Goel, R. Hartfield, T. Buehrig, M. Reck, E. Kennedy, K. Poore, K. Tremblay, B. Srivastava, and L. Vasconcelos 
     </div>
     <div class="publication-venue">
-      AAAI 2025 (Accepted)
+      AAAI 2025 Student Abstract
       <a href="https://www.researchgate.net/publication/385590927_Towards_Enhancing_Road_Safety_in_South_Carolina_Using_Insights_from_Traffic_and_Driver-Education_Data" 
          class="publication-link" 
          target="_blank"
@@ -33,14 +34,14 @@ title: Publications
   <!-- AAAI 2025 Paper 2 -->
   <div class="publication">
     <div class="publication-title">
-      ElectionBot-SC: A Tool to Understand and Compare Chatbot Behavior for Safe Election Information in South Carolina
+      Disseminating Authentic Public Messages using Chatbots - A Case Study with ElectionBot-SC to Understand and Compare Chatbot Behavior for Safe Election Information in South Carolina
     </div>
     <div class="publication-authors">
-      B. Muppasani, K. Lakkaraju, N. Gupta, V. Nagpal, S. Jones, and B. Srivastava
+      N. Gupta, V. Nagpal, B. Muppasani, K. Lakkaraju, S. Jones, and B. Srivastava
     </div>
     <div class="publication-venue">
-      AAAI 2025 (Under Review)
-      <a href="http://dx.doi.org/10.13140/RG.2.2.14188.37761" 
+      AAAI 2025 Workshop on AI for Public Missions
+      <a href="https://ai4society.github.io/publications/papers_local/AAAI_25_SafeChat_Workshop.pdf" 
          class="publication-link" 
          target="_blank"
          title="View Publication">
@@ -51,8 +52,8 @@ title: Publications
       <input type="checkbox" id="abstract2" class="abstract-toggle">
       <label for="abstract2" class="abstract-btn">Show Abstract</label>
       <div class="publication-abstract">
-        With the 2024 elections impacting nearly half the world’s population, the need for accurate election information has never been more urgent. However, stakeholders continue to face difficulties in accessing reliable data, especially with rising concerns about generative AI, misinformation, and bots. We introduce ElectionBot-SC, a chatbot tool designed to provide personalized and reliable election-related information from a primary source (e.g., official election commission) and, if necessary, from a secondary source (e.g., non-profit) through a user-friendly interface. This demo highlights its multi-engine functionality, allowing users to choose between SafeChat (rule-based and powered by Rasa), Google Search, and an LLM (Mixtral 8x7b) to receive responses. ElectionBot-SC ensures transparency by clearly indicating the provenance of the information and encouraging users to evaluate responses from various AI engines critically. The tool is being used for the 2024 elections in South Carolina to evaluate the effectiveness of chatbots in assisting users at a University comprising of students, including first-time voters, staff, and faculty, with election queries. Demo Video link - https://shorturl.at/1A7cc.
-      </div>
+        With the 2024 elections impacting nearly half the world’s population, the need for accurate election information has never been more urgent. However, stakeholders continue to face difficulties in accessing reliable data, especially with rising concerns about generative AI, misinformation, and bots. We introduce ElectionBot-SC, a chatbot tool designed to provide personalized and reliable election-related information from a primary source (e.g., official election commission) and, if necessary, from a secondary source (e.g., nonprofit) through a user-friendly interface. This demo highlights its multi-engine functionality, allowing users to choose between SafeChat (rule-based and powered by Rasa), Google Search, and an LLM (Mixtral 8x7b) to receive responses. ElectionBot-SC ensures transparency by clearly indicating the provenance of the information and encouraging users to evaluate responses from various AI engines critically. The tool was used for the 2024 elections in South Carolina to understand the effectiveness of chatbots in assisting users at a University comprising of students, including first-time voters, staff, and faculty, with election queries. Although we focus on elections and verifiable information dissemination using chatbots, our proposed approach is widely applicable like in health, traffic, education, and water. Demo Video link - https://shorturl.at/1A7cc
+    </div>
     </div>
   </div>
 
@@ -65,7 +66,7 @@ title: Publications
       B. Muppasani, N. Gupta, V. Pallagani, B. Srivastava, R. Mutharaju, M. N. Huhns, and V. Narayanan
     </div>
     <div class="publication-venue">
-      CODS-COMAD 2024 (Accepted)
+      CODS-COMAD 2024
       <a href="https://ai4society.github.io/publications/papers_local/CODS_24_AI_Planning_Ontology.pdf" 
          class="publication-link" 
          target="_blank"

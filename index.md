@@ -24,33 +24,52 @@ title: Home
 
   <div class="news-section">
     <h2 class="news-title">Recent Updates</h2>
-    <div class="news-grid">
-        <!-- Publication Update -->
-        <div class="news-item">
-            <div class="news-date">March 2024</div>
+    <div class="news-scroll-container">
+      <div class="news-grid">
+
+          <div class="news-item">
+              <div class="news-date">January 2025</div>
+              <span class="news-category category-publication">Publication</span>
+              <div class="news-headline">New Paper Accepted at AAAI 2025</div>
+              <p class="news-description">Our work presenting a chatbot for disseminating authentic election information has been accepted at AAAI 2025 Workshop on AI for Public Missions</p>
+              <a href="{{ site.baseurl }}/publications" class="news-link">Read more <i class="fas fa-arrow-right"></i></a>
+          </div>
+
+          <!-- Publication Update -->
+          <div class="news-item">
+              <div class="news-date">October 2024</div>
+              <span class="news-category category-publication">Publication</span>
+              <div class="news-headline">New Paper Accepted at AAAI 2025</div>
+              <p class="news-description">Our work on enhancing road safety in South Carolina has been accepted as a Student Abstract at AAAI 2025 in Philadelphia, USA</p>
+              <a href="{{ site.baseurl }}/publications" class="news-link">Read more <i class="fas fa-arrow-right"></i></a>
+          </div>
+
+          <div class="news-item">
+            <div class="news-date">October 2024</div>
             <span class="news-category category-publication">Publication</span>
-            <div class="news-headline"><b>2</b> New Papers Accepted at AAAI 2025 & CODS COMAD 2024</div>
-            <p class="news-description">Our work on enhancing road safety in South Carolina and developing a Planning Ontology has been accepted.</p>
+            <div class="news-headline">New Paper Accepted at CODS COMAD 2024</div>
+            <p class="news-description">Our work developing a Planning Ontology has been accepted at CODS COMAD 2024 in India</p>
             <a href="{{ site.baseurl }}/publications" class="news-link">Read more <i class="fas fa-arrow-right"></i></a>
         </div>
 
-        <!-- Experience Update -->
-        <div class="news-item">
-            <div class="news-date">August 2024</div>
-            <span class="news-category category-experience">Experience</span>
-            <div class="news-headline">Started Research Assistantship</div>
-            <p class="news-description">Joined the AI4Society Lab as an Undergraduate Research Assistant.</p>
-            <a href="{{ site.baseurl }}/experience" class="news-link">View details <i class="fas fa-arrow-right"></i></a>
-        </div>
+          <!-- Experience Update -->
+          <div class="news-item">
+              <div class="news-date">August 2024</div>
+              <span class="news-category category-experience">Experience</span>
+              <div class="news-headline">Started Research Assistantship</div>
+              <p class="news-description">Joined the AI4Society Lab as an Undergraduate Research Assistant.</p>
+              <a href="{{ site.baseurl }}/experience" class="news-link">View details <i class="fas fa-arrow-right"></i></a>
+          </div>
 
-        <!-- Project Update -->
-        <!-- <div class="news-item"> -->
-            <!-- <div class="news-date">January 2024</div> -->
-            <!-- <span class="news-category category-project">Project</span> -->
-            <!-- <div class="news-headline">Launched ML Model Deployment Tool</div> -->
-            <!-- <p class="news-description">Released a new tool for streamlining machine learning model deployments.</p> -->
-            <!-- <a href="{{ site.baseurl }}/projects" class="news-link">Learn more <i class="fas fa-arrow-right"></i></a> -->
-        <!-- </div> -->
+          <!-- Project Update -->
+          <!-- <div class="news-item"> -->
+              <!-- <div class="news-date">January 2024</div> -->
+              <!-- <span class="news-category category-project">Project</span> -->
+              <!-- <div class="news-headline">Launched ML Model Deployment Tool</div> -->
+              <!-- <p class="news-description">Released a new tool for streamlining machine learning model deployments.</p> -->
+              <!-- <a href="{{ site.baseurl }}/projects" class="news-link">Learn more <i class="fas fa-arrow-right"></i></a> -->
+          <!-- </div> -->
+      </div>
     </div>
   </div>
 

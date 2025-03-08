@@ -27,7 +27,7 @@ title: Projects
         </div>
 
         <div class="project-tech">
-            <span class="tech-tag">Node.js</span>
+            <span class="tech-tag">React.js</span>
             <span class="tech-tag">Python</span>
         </div>
     </div>
@@ -55,6 +55,14 @@ title: Projects
         <div class="project-tech">
             <span class="tech-tag">Python</span>
             <span class="tech-tag">LLMs + RAG</span>
+        </div>
+
+        <div class="project-links">
+            <a href="https://github.com/g-nitin/stylized-segmentation" class="project-link">
+                <i class="fab fa-github"></i>
+                GitHub Repository
+            </a>
+            <!-- Add more links as needed -->
         </div>
     </div>
 
