@@ -8,7 +8,7 @@ title: Home
     <h1 class="hero-title">Welcome to My Portfolio</h1>
     <div class="hero-content">
       <p class="hero-text">
-        Hello! I'm Nitin Gupta, a Computer Science student at the University of South Carolina. This portfolio showcases my education, skills, experience, and projects. Feel free to explore and learn more about my journey in the world of technology and software development.
+        Hello! I'm Nitin Gupta, a Computer Science Master's student at the University of South Carolina. This portfolio showcases my education, skills, experience, and projects. Feel free to explore and learn more about my journey in the world of technology and software development.
       </p>
     </div>
   </header>
@@ -28,14 +28,20 @@ title: Home
       <div class="news-grid">
 
           <div class="news-item">
-              <div class="news-date">January 2025</div>
+              <div class="news-date">May 2025</div>
+              <span class="news-category category-education">Education</span>
+              <div class="news-headline">Graduation!</div>
+              <p class="news-description">Grateful to announce that I have completed my undergraduate studies. Recently graduated in May 2025 with major in computer science and minors in data science and mathematics.</p>
+          </div>
+
+          <div class="news-item">
+              <div class="news-date">March 2025</div>
               <span class="news-category category-publication">Publication</span>
-              <div class="news-headline">New Paper Accepted at AAAI 2025</div>
-              <p class="news-description">Our work presenting a chatbot for disseminating authentic election information has been accepted at AAAI 2025 Workshop on AI for Public Missions</p>
+              <div class="news-headline">New Paper Accepted at ICAPS 2025</div>
+              <p class="news-description">Our work on revisiting LLMs in planning through a semi-automated analysis of evolving literature categories has been accepted at ICAPS 2025.</p>
               <a href="{{ site.baseurl }}/publications" class="news-link">Read more <i class="fas fa-arrow-right"></i></a>
           </div>
 
-          <!-- Publication Update -->
           <div class="news-item">
               <div class="news-date">October 2024</div>
               <span class="news-category category-publication">Publication</span>

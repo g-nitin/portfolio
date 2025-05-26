@@ -6,7 +6,7 @@ title: ""
 <div class="intro-section">
   <h1>Hello, I'm Nitin Gupta</h1>
   <p>
-    I'm a computer science researcher and lifelong learner, currently based in Columbia, SC. I’m pursuing my B.S. at the University of South Carolina and an accelerated master’s in Computer Science. My passion for AI, machine learning, and data science drives me to explore innovative solutions that make a real impact.
+    I'm a computer science researcher and lifelong learner, currently based in Columbia, SC. I’m pursuing Master's in Computer Science (with focus in Artificial Inteligence) at the University of South Carolina. My passion for AI, machine learning, and data science drives me to explore innovative solutions that make a real impact.
   </p>
   <p>
     I'm delighted that you've stopped by! Whether I'm hanging out with friends, researching AI methodologies, or volunteering with local organizations, I'm always excited to share my journey with you. Please feel welcome to explore my portfolio, learn about my experiences, and connect with me.

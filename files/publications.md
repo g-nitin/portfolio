@@ -5,10 +5,9 @@ title: Publications
 
 <div class="publication-list">
   
-  <!-- AAAI 2025 Paper 1 -->
   <div class="publication">
     <div class="publication-title">
-      Towards Enhancing Road Safety in South Carolina Using Insights from Traffic and Driver-Education Data
+      Towards Enhancing Road Safety in South Carolina Using Insights from Traffic and Driver-Education Data (Student Abstract)
     </div>
     <div class="publication-authors">
       N. Gupta, B. Muppasani, S. Srivastava, A. Goel, R. Hartfield, T. Buehrig, M. Reck, E. Kennedy, K. Poore, K. Tremblay, B. Srivastava, and L. Vasconcelos 
@@ -31,17 +30,16 @@ title: Publications
     </div>
   </div>
 
-  <!-- AAAI 2025 Paper 2 -->
   <div class="publication">
     <div class="publication-title">
-      Disseminating Authentic Public Messages using Chatbots - A Case Study with ElectionBot-SC to Understand and Compare Chatbot Behavior for Safe Election Information in South Carolina
+      Revisiting LLMs in Planning from Literature Review: a Semi-Automated Analysis Approach and Evolving Categories Representing Shifting Perspectives
     </div>
     <div class="publication-authors">
-      N. Gupta, V. Nagpal, B. Muppasani, K. Lakkaraju, S. Jones, and B. Srivastava
+      Vishal Pallagani, Nitin Gupta, Bharath Chandra Muppasani, Biplav Srivastava
     </div>
     <div class="publication-venue">
-      AAAI 2025 Workshop on AI for Public Missions
-      <a href="https://ai4society.github.io/publications/papers_local/AAAI_25_SafeChat_Workshop.pdf" 
+      (Accepted; Awaiting Publication) ICAPS 2025
+      <a href="https://ai4society.github.io/publications/papers_local/litevol.pdf" 
          class="publication-link" 
          target="_blank"
          title="View Publication">
@@ -49,15 +47,15 @@ title: Publications
       </a>
     </div>
     <div class="abstract-container">
-      <input type="checkbox" id="abstract2" class="abstract-toggle">
-      <label for="abstract2" class="abstract-btn">Show Abstract</label>
+      <input type="checkbox" id="abstract3" class="abstract-toggle">
+      <label for="abstract3" class="abstract-btn">Show Abstract</label>
       <div class="publication-abstract">
-        With the 2024 elections impacting nearly half the world’s population, the need for accurate election information has never been more urgent. However, stakeholders continue to face difficulties in accessing reliable data, especially with rising concerns about generative AI, misinformation, and bots. We introduce ElectionBot-SC, a chatbot tool designed to provide personalized and reliable election-related information from a primary source (e.g., official election commission) and, if necessary, from a secondary source (e.g., nonprofit) through a user-friendly interface. This demo highlights its multi-engine functionality, allowing users to choose between SafeChat (rule-based and powered by Rasa), Google Search, and an LLM (Mixtral 8x7b) to receive responses. ElectionBot-SC ensures transparency by clearly indicating the provenance of the information and encouraging users to evaluate responses from various AI engines critically. The tool was used for the 2024 elections in South Carolina to understand the effectiveness of chatbots in assisting users at a University comprising of students, including first-time voters, staff, and faculty, with election queries. Although we focus on elections and verifiable information dissemination using chatbots, our proposed approach is widely applicable like in health, traffic, education, and water. Demo Video link - https://shorturl.at/1A7cc
-    </div>
+        Tracking the rapidly evolving literature at the intersection of large language models (LLMs) and planning has become increasingly complex due to significant growth in research output and shifting thematic focuses. Building on the survey by Pallagani et al.(2024), which organized 126 papers collected till November 2023 into eight categories, we present a platform that automates the extraction, categorization, and trend analysis of new papers. Our analysis reports on category drift, identifying evolving perspectives on the use of LLMs for planning. Our analysis reveals a decline in the percentage of papers for six categories, an increase in two, and the emergence of two new categories. Specifically, we contribute by (1) developing an automated system for categorizing new papers into existing or emergent categories,(2) reporting on category shifts with the addition of 47 new papers till September 2024, and (3) introducing a platform for continuous extraction, categorization, and trend tracking in LLM and planning research. This platform also features a leaderboard to encourage innovations in automated paper categorization.
+      </div>
     </div>
   </div>
 
-  <!-- CODS-COMAD 2024 Paper -->
+
   <div class="publication">
     <div class="publication-title">
       Building a Plan Ontology to Represent and Exploit Planning Knowledge and Its Applications
@@ -82,4 +80,55 @@ title: Publications
       </div>
     </div>
   </div>
+
+  <div class="publication">
+    <div class="publication-title">
+      SafeChat: A Framework for Building Trustworthy Collaborative Assistants and a Case Study of its Usefulness
+    </div>
+    <div class="publication-authors">
+      Biplav Srivastava, Kausik Lakkaraju, Nitin Gupta, Vansh Nagpal, Bharath C Muppasani, Sara E Jones 
+    </div>
+    <div class="publication-venue">
+      (Under Review) Communications of the ACM
+      <a href="https://arxiv.org/abs/2504.07995" 
+         class="publication-link" 
+         target="_blank"
+         title="View Publication">
+        <i class="fas fa-external-link-alt"></i>
+      </a>
+    </div>
+    <div class="abstract-container">
+      <input type="checkbox" id="abstract1" class="abstract-toggle">
+      <label for="abstract1" class="abstract-btn">Show Abstract</label>
+      <div class="publication-abstract">
+        Collaborative assistants, or chatbots, are data-driven decision support systems that enable natural interaction for task completion. While they can meet critical needs in modern society, concerns about their reliability and trustworthiness persist. In particular, Large Language Model (LLM)-based chatbots like ChatGPT, Gemini, and DeepSeek are becoming more accessible. However, such chatbots have limitations, including their inability to explain response generation, the risk of generating problematic content, the lack of standardized testing for reliability, and the need for deep AI expertise and extended development times. These issues make chatbots unsuitable for trust-sensitive applications like elections or healthcare. To address these concerns, we introduce SafeChat, a general architecture for building safe and trustworthy chatbots, with a focus on information retrieval use cases. Key features of SafeChat include: (a) safety, with a domain-agnostic design where responses are grounded and traceable to approved sources (provenance), and 'do-not-respond' strategies to prevent harmful answers; (b) usability, with automatic extractive summarization of long responses, traceable to their sources, and automated trust assessments to communicate expected chatbot behavior, such as sentiment; and (c) fast, scalable development, including a CSV-driven workflow, automated testing, and integration with various devices. We implemented SafeChat in an executable framework using the open-source chatbot platform Rasa. A case study demonstrates its application in building ElectionBot-SC, a chatbot designed to safely disseminate official election information. SafeChat is being used in many domains, validating its potential, and is available at: <a href="https://github.com/ai4society/trustworthy-chatbot">this https URL</a>.
+      </div>
+    </div>
+  </div>
+
+  <div class="publication">
+    <div class="publication-title">
+      On the Books in South Carolina: Mining for Jim Crow Laws
+    </div>
+    <div class="publication-authors">
+      Kate F Boyd, Vandana Srivastava, Lance DuPre, Christopher Frear, Nitin Gupta
+    </div>
+    <div class="publication-venue">
+      University of South Carolina
+      <a href="https://scholarcommons.sc.edu/lib_facpub/63/" 
+         class="publication-link" 
+         target="_blank"
+         title="View Publication">
+        <i class="fas fa-external-link-alt"></i>
+      </a>
+    </div>
+    <div class="abstract-container">
+      <input type="checkbox" id="abstract3" class="abstract-toggle">
+      <label for="abstract3" class="abstract-btn">Show Abstract</label>
+      <div class="publication-abstract">
+        On the Books in South Carolina: Mining for Jim Crow Laws is a collections-as-data and machine learning project by the University of South Carolina Libraries (USC), sub awarded by the University of North Carolina at Chapel Hill (UNC), and made possible by The Andrew W. Mellon Foundation, for the period of May 2022-December 2024. Following UNC’s steps from their first year of the grant, the USC project created a text corpus of South Carolina state legislature acts passed in the period from Reconstruction through the Civil Rights Movement (1868-1968). The USC team then utilized machine learning techniques to create a model classifying the laws as either Jim Crow or not.
+      </div>
+    </div>
+  </div>
+
 </div>
