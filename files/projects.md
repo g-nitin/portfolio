@@ -7,7 +7,7 @@ title: Projects
 
     <div class="project-card">
         <div class="project-header">
-            <span class="project-status status-ongoing">Ongoing</span>
+            <span class="project-status status-completed">Completed</span>
             <h2 class="project-title">ArtEdge: Real-Time Neural Style Transfer for Mobile Devices</h2>
         </div>
 

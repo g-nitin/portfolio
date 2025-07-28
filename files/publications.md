@@ -38,7 +38,7 @@ title: Publications
       Vishal Pallagani, Nitin Gupta, Bharath Chandra Muppasani, Biplav Srivastava
     </div>
     <div class="publication-venue">
-      (Accepted; Awaiting Publication) ICAPS 2025
+      (Accepted; Awaiting Archival Link) ICAPS 2025
       <a href="https://ai4society.github.io/publications/papers_local/litevol.pdf" 
          class="publication-link" 
          target="_blank"
@@ -55,7 +55,6 @@ title: Publications
     </div>
   </div>
 
-
   <div class="publication">
     <div class="publication-title">
       Building a Plan Ontology to Represent and Exploit Planning Knowledge and Its Applications
@@ -64,7 +63,7 @@ title: Publications
       B. Muppasani, N. Gupta, V. Pallagani, B. Srivastava, R. Mutharaju, M. N. Huhns, and V. Narayanan
     </div>
     <div class="publication-venue">
-      CODS-COMAD 2024
+      (Under Review) Discover Data Journal
       <a href="https://ai4society.github.io/publications/papers_local/CODS_24_AI_Planning_Ontology.pdf" 
          class="publication-link" 
          target="_blank"
@@ -77,31 +76,6 @@ title: Publications
       <label for="abstract3" class="abstract-btn">Show Abstract</label>
       <div class="publication-abstract">
         Ontologies are known for their ability to organize rich metadata, support the identification of novel insights via semantic queries, and promote reuse. In this paper, we consider the problem of automated planning, where the objective is to find a sequence of actions that will move an agent from an initial state of the world to a desired goal state. We hypothesize that given a large number of available planners and diverse planning domains, they carry essential information that can be leveraged to improve many ontology applications. We use open data on planning domains and planners to construct the most comprehensive planning ontology to date, based on supported competency questions, and demonstrate its applications in two practical use cases - planner selection and plan explanation. We have also made the ontology and associated resources available to the AI and data communities to promote further research.
-      </div>
-    </div>
-  </div>
-
-  <div class="publication">
-    <div class="publication-title">
-      SafeChat: A Framework for Building Trustworthy Collaborative Assistants and a Case Study of its Usefulness
-    </div>
-    <div class="publication-authors">
-      Biplav Srivastava, Kausik Lakkaraju, Nitin Gupta, Vansh Nagpal, Bharath C Muppasani, Sara E Jones 
-    </div>
-    <div class="publication-venue">
-      (Under Review) Communications of the ACM
-      <a href="https://arxiv.org/abs/2504.07995" 
-         class="publication-link" 
-         target="_blank"
-         title="View Publication">
-        <i class="fas fa-external-link-alt"></i>
-      </a>
-    </div>
-    <div class="abstract-container">
-      <input type="checkbox" id="abstract1" class="abstract-toggle">
-      <label for="abstract1" class="abstract-btn">Show Abstract</label>
-      <div class="publication-abstract">
-        Collaborative assistants, or chatbots, are data-driven decision support systems that enable natural interaction for task completion. While they can meet critical needs in modern society, concerns about their reliability and trustworthiness persist. In particular, Large Language Model (LLM)-based chatbots like ChatGPT, Gemini, and DeepSeek are becoming more accessible. However, such chatbots have limitations, including their inability to explain response generation, the risk of generating problematic content, the lack of standardized testing for reliability, and the need for deep AI expertise and extended development times. These issues make chatbots unsuitable for trust-sensitive applications like elections or healthcare. To address these concerns, we introduce SafeChat, a general architecture for building safe and trustworthy chatbots, with a focus on information retrieval use cases. Key features of SafeChat include: (a) safety, with a domain-agnostic design where responses are grounded and traceable to approved sources (provenance), and 'do-not-respond' strategies to prevent harmful answers; (b) usability, with automatic extractive summarization of long responses, traceable to their sources, and automated trust assessments to communicate expected chatbot behavior, such as sentiment; and (c) fast, scalable development, including a CSV-driven workflow, automated testing, and integration with various devices. We implemented SafeChat in an executable framework using the open-source chatbot platform Rasa. A case study demonstrates its application in building ElectionBot-SC, a chatbot designed to safely disseminate official election information. SafeChat is being used in many domains, validating its potential, and is available at: <a href="https://github.com/ai4society/trustworthy-chatbot">this https URL</a>.
       </div>
     </div>
   </div>
