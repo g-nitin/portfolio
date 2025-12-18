@@ -16,7 +16,11 @@ title: Experience
         
         <div class="experience-description">
             <ul>
-                <li>Conducting research on AI applications in social good, focusing on Neuro-symbolic AI and Natural Language Processing under <a href="https://sites.google.com/site/biplavsrivastava">Dr. Biplav Srivastava</a> in the AI 4 Society at <a href="https://aiisc.ai/">AIISC</a></li>
+                <li>Leading research in Neuro-symbolic AI and NLP, focusing on planning, knowledge graphs, and multimodal AI systems under <a href="https://sites.google.com/site/biplavsrivastava">Dr. Biplav Srivastava</a>.</li>
+                <li>Organized <strong>Safe AI for Seniors</strong>, a full-day hybrid event with 80+ attendees, securing AAAI sponsorship and coordinating 8+ expert speakers.</li>
+                <li>Mentored students in research methodologies, resulting in successful conference submissions and improved experimental design.</li>
+                <li>Published 4+ peer-reviewed papers at premier AI conferences on explainable AI, generative AI evaluation, and AI planning.</li>
+                <li>Peer-reviewed 10+ research papers for top-tier AI conferences, ensuring quality and relevance in the field.</li>
             </ul>
         </div>
 
@@ -24,7 +28,8 @@ title: Experience
             <span class="skill-tag">AI</span>
             <span class="skill-tag">Neuro-symbolic AI</span>
             <span class="skill-tag">NLP</span>
-            <span class="skill-tag">Research</span>
+            <span class="skill-tag">Event Organization</span>
+            <span class="skill-tag">Mentorship</span>
         </div>
 
         <div class="related-links">
@@ -45,13 +50,13 @@ title: Experience
                 <div class="experience-company">Trew Friends, University of South Carolina</div>
                 <div class="experience-location">Columbia, SC</div>
             </div>
-            <div class="experience-date">Aug 2021 - Present</div>
+            <div class="experience-date">Aug 2021 - Dec 2024</div>
         </div>
         
         <div class="experience-description">
             <ul>
-                <li>Promoted organ, eye, and tissue donation at the University of South Carolina, informing and educating people about the importance of donation</li>
-                <li>Successfully persuaded over 300 individuals to register as donors on the national organ donor registry</li>
+                <li>Promoted organ, eye, and tissue donation at the University of South Carolina through community outreach.</li>
+                <li>Successfully persuaded over 300 individuals to register as donors on the national organ donor registry.</li>
             </ul>
         </div>
 

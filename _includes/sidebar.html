@@ -1,9 +1,7 @@
 <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
-      {% if page.url == "/" %}
       <img src="{{ site.baseurl }}/assets/profile.jpg" alt="Profile Picture" class="profile-pic">
-      {% endif %}
       <h1>
         <a href="{{ site.baseurl }}">
           Nitin Gupta
@@ -22,11 +20,14 @@
       <a class="sidebar-nav-item{% if page.title == "Experience" %} active{% endif %}" href="{{ site.baseurl }}/files/experience">Experience</a>
       
       <a class="sidebar-nav-item{% if page.title == "About" %} active{% endif %}" href="{{ site.baseurl }}/files/about">About</a>
+
+      <a class="sidebar-nav-item" href="https://g-nitin.github.io/portfolio/assets/Nitin_Gupta_Résumé.pdf" target="_blank"><i class="fas fa-file-pdf"></i> Résumé (PDF)</a>
     </nav>
 
     <div class="sidebar-social">
       <a href="https://www.linkedin.com/in/niting9" target="_blank"><i class="fab fa-linkedin"></i></a>
       <a href="https://github.com/g-nitin" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://scholar.google.com/citations?user=xD_6EHoAAAAJ&hl=en" target="_blank"><i class="fab fa-google"></i></a>
       <a href="mailto:niting1209@gmail.com"><i class="fas fa-envelope"></i></a>
     </div>
   </div>

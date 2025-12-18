@@ -13,7 +13,42 @@ title: ""
   </p>
 </div>
 
-[Awards](#awards) | [Skills](#skills) | [Languages](#languages)
+[Education](#education) | [Awards](#awards) | [Skills](#skills) | [Languages](#languages)
+
+<div class="education-section" id="education">
+  <h2>Education</h2>
+  
+  <div class="education-card">
+    <div class="education-header">
+      <div class="education-main">
+        <h3 class="institution-name">University of South Carolina</h3>
+        <div class="degree-info">
+          <span class="degree-name">M.S. in Computer Science (AI Concentration)</span>
+          <span class="gpa">GPA: 4.0/4.0</span>
+        </div>
+        <div class="education-date">Aug 2025 - May 2026</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="education-card">
+    <div class="education-header">
+      <div class="education-main">
+        <h3 class="institution-name">University of South Carolina</h3>
+        <div class="degree-info">
+          <span class="degree-name">B.S. in Computer Science</span>
+          <span class="gpa">GPA: 4.0/4.0</span>
+        </div>
+        <div class="education-date">Aug 2021 - May 2025</div>
+        <div class="education-details">
+            <em>Minors: Mathematics, Data Science</em>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr>
 
 <div class="awards-section" id="awards">
   <h2>Awards & Recognitions</h2>
@@ -150,6 +185,8 @@ title: ""
   </div>
 </div>
 
+<hr>
+
 <div class="skills-section" id="skills">
   <h2>Technical Skills</h2>
   <p>
@@ -186,6 +223,13 @@ title: ""
           <div class="skill-name">Java</div>
         </a>
       </div>
+      <!-- LaTeX -->
+      <div class="skill-item">
+        <a href="https://www.latex-project.org/" target="_blank" rel="noreferrer">
+          <img src="https://user-images.githubusercontent.com/5700795/49007377-3bac3d00-f163-11e8-8172-cdad5fde4c8c.png" class="skill-icon" alt="LaTeX"/>
+          <div class="skill-name">LaTeX</div>
+        </a>
+      </div>
       <!-- Linux -->
       <div class="skill-item">
         <a href="https://www.linux.org" target="_blank" rel="noreferrer">
@@ -200,11 +244,10 @@ title: ""
           <div class="skill-name">Git</div>
         </a>
       </div>
-      <!-- LaTeX -->
       <div class="skill-item">
-        <a href="https://www.latex-project.org/" target="_blank" rel="noreferrer">
-          <img src="https://user-images.githubusercontent.com/5700795/49007377-3bac3d00-f163-11e8-8172-cdad5fde4c8c.png" class="skill-icon" alt="LaTeX"/>
-          <div class="skill-name">LaTeX</div>
+        <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
+          <img src="https://www.svgrepo.com/show/373541/cuda.svg" class="skill-icon" alt="Cuda"/>
+          <div class="skill-name">CUDA</div>
         </a>
       </div>
     </div>
@@ -251,6 +294,8 @@ title: ""
     </div>
   </div>
 </div>
+
+<hr>
 
 <h2 id="languages">Languages</h2>
 <p>

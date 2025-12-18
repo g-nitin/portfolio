@@ -5,7 +5,7 @@ title: Projects
 
 <div class="projects-section">
 
-    <div class="project-card">
+    <div class="project-card" id="artedge">
         <div class="project-header">
             <span class="project-status status-completed">Completed</span>
             <h2 class="project-title">ArtEdge: Real-Time Neural Style Transfer for Mobile Devices</h2>
@@ -38,7 +38,7 @@ title: Projects
         </div>
     </div>
 
-    <div class="project-card">
+    <div class="project-card" id="beacon-of-hope">
         <div class="project-header">
             <span class="project-status status-completed">Completed</span>
             <h2 class="project-title">Beacon Of Hope: A Personalized Meal Plan Recommender </h2>
@@ -74,7 +74,7 @@ title: Projects
         </div>
     </div>
 
-    <div class="project-card">
+    <div class="project-card" id="roostai">
         <div class="project-header">
             <span class="project-status status-completed">Completed</span>
             <h2 class="project-title">RoostAI: A University Centered Chatbot</h2>
@@ -106,7 +106,7 @@ title: Projects
         </div>
     </div>
 
-    <div class="project-card">
+    <div class="project-card" id="segify">
         <div class="project-header">
             <span class="project-status status-completed">Completed</span>
             <h2 class="project-title">Segify: Semantic Segmentation for Localized Artistic Effects</h2>
@@ -144,7 +144,7 @@ title: Projects
         </div>
     </div>
 
-    <div class="project-card">
+    <div class="project-card" id="autoencoders">
         <div class="project-header">
             <span class="project-status status-completed">Completed</span>
             <h2 class="project-title">Deep Learning & Autoencoders for Colorization</h2>
