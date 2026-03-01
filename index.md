@@ -20,7 +20,7 @@ title: Home
       <a href="{{ site.baseurl }}/files/projects" class="action-btn btn-outline">
         <i class="fas fa-code"></i> See Projects
       </a>
-      <a href="https://g-nitin.github.io/portfolio/assets/Nitin_Gupta_Résumé.pdf" class="action-btn btn-primary">
+      <a href="https://drive.google.com/file/d/1yQWns6QdV9GcTuZcQabLll5HHgoPuypy/view?usp=sharing" class="action-btn btn-primary" target="_blank">
         <i class="fas fa-file-pdf"></i> Résumé
       </a>
     </div>
