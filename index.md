@@ -31,6 +31,22 @@ title: Home
     <h2 class="news-title">Latest Updates</h2>
     <div class="news-grid">
 
+        <!-- 2026 Divider -->
+        <h3 class="timeline-year">2026</h3>
+
+        <div class="news-item">
+            <span class="news-category category-publication">Publication</span>
+            <div class="news-header-row">
+                <h3 class="news-headline">Paper Accepted at ICAPS 2026</h3>
+                <div class="news-date">Feb 2026</div>
+            </div>
+            <p class="news-description">
+              Our paper on learning transition models for generalized planning has been accepted for publication at ICAPS 2026 in Dublin, Ireland.
+            </p>
+            <a href="https://arxiv.org/abs/2602.23148" class="news-link" target="_blank">Read pre-print <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+
         <!-- 2025 Divider -->
         <h3 class="timeline-year">2025</h3>
 

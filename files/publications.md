@@ -4,9 +4,32 @@ title: Publications
 ---
 
 <div class="publication-list">
-
   <!-- 2026 / In Press -->
   <h3 class="timeline-year">2026</h3>
+
+<div class="publication">
+    <div class="publication-title">
+      On Sample-Efficient Generalized Planning via Learned Transition Models
+    </div>
+    <div class="publication-authors">
+      <b>N. Gupta</b>, V. Pallagani, J. A. Aydin, B. Srivastava
+    </div>
+    <div class="publication-venue">
+      ICAPS 2026 (In-Press)
+      <a href="https://arxiv.org/abs/2602.23148" class="publication-link" target="_blank" title="View ArXiv">
+        <i class="fas fa-external-link-alt"></i>
+      </a>
+    </div>
+    <div class="abstract-container">
+      <input type="checkbox" id="abstract-state" class="abstract-toggle">
+      <label for="abstract-state" class="abstract-btn">Show Abstract</label>
+      <div class="publication-abstract">
+        Generalized planning studies the construction of solution strategies that generalize across families of planning problems sharing a common domain model, formally defined by a transition function $\gamma : S \times A \rightarrow S$. Classical approaches achieve such generalization through symbolic abstractions and explicit reasoning over $\gamma$. In contrast, recent Transformer-based planners, such as PlanGPT and Plansformer, largely cast generalized planning as direct action-sequence prediction, bypassing explicit transition modeling. While effective on in-distribution instances, these approaches typically require large datasets and model sizes, and often suffer from state drift in long-horizon settings due to the absence of explicit world-state evolution.
+        In this work, we formulate generalized planning as a transition-model learning problem, in which a neural model explicitly approximates the successor-state function $\hat{\gamma} \approx \gamma$ and generates plans by rolling out symbolic state trajectories. Instead of predicting actions directly, the model autoregressively predicts intermediate world states, thereby learning the domain dynamics as an implicit world model. To study size-invariant generalization and sample efficiency, we systematically evaluate multiple state representations and neural architectures, including relational graph encodings.
+        Our results show that learning explicit transition models yields higher out-of-distribution satisficing-plan success than direct action-sequence prediction in multiple domains, while achieving these gains with significantly fewer training instances and smaller models.
+      </div>
+    </div>
+  </div>
 
   <div class="publication">
     <div class="publication-title">
