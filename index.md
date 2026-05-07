@@ -37,11 +37,23 @@ title: Home
         <div class="news-item">
             <span class="news-category category-publication">Publication</span>
             <div class="news-header-row">
+                <h3 class="news-headline">Tutorial Accepted at ICAPS 2026</h3>
+                <div class="news-date">March 2026</div>
+            </div>
+            <p class="news-description">
+              Tutorial on Planning Ontology: Knowledge Representation and Explainable Planning accepted at the <a href="https://icaps26.icaps-conference.org/">36th International Conference on Automated Planning and Scheduling (ICAPS 2026)</a>, Dublin, Ireland, June 28–29, 2026.
+            </p>
+            <!-- <a href="https://arxiv.org/abs/2602.23148" class="news-link" target="_blank">Read pre-print <i class="fas fa-arrow-right"></i></a> -->
+        </div>
+
+        <div class="news-item">
+            <span class="news-category category-publication">Publication</span>
+            <div class="news-header-row">
                 <h3 class="news-headline">Paper Accepted at ICAPS 2026</h3>
                 <div class="news-date">Feb 2026</div>
             </div>
             <p class="news-description">
-              Our paper on learning transition models for generalized planning has been accepted for publication at ICAPS 2026 in Dublin, Ireland.
+              Our paper on learning transition models for generalized planning has been accepted for publication at <a href="https://icaps26.icaps-conference.org/">36th International Conference on Automated Planning and Scheduling (ICAPS 2026)</a>, Dublin, Ireland, June 28–29, 2026.
             </p>
             <a href="https://arxiv.org/abs/2602.23148" class="news-link" target="_blank">Read pre-print <i class="fas fa-arrow-right"></i></a>
         </div>
