@@ -38,30 +38,44 @@
     </header>
     
 
-    <!-- RECENT UPDATES -->
+    <!-- SELECTED UPDATES -->
     <section id="updates" style="margin-bottom:104px; scroll-margin-top:32px;">
       <div style="display:flex; align-items:baseline; gap:12px; margin-bottom:34px;">
         <span style="font-family:'Spline Sans Mono',monospace; font-size:12px; letter-spacing:0.12em; text-transform:uppercase; color:var(--accent,#00594f);">01</span>
-        <h2 style="margin:0; font-family:'Spline Sans Mono',monospace; font-size:12px; letter-spacing:0.18em; text-transform:uppercase; color:#667085; font-weight:500;">Recent updates</h2>
+        <h2 style="margin:0; font-family:'Spline Sans Mono',monospace; font-size:12px; letter-spacing:0.18em; text-transform:uppercase; color:#667085; font-weight:500;">Selected updates</h2>
       </div>
-      <ul style="list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:24px;">
-        <li style="display:grid; grid-template-columns:120px 1fr; gap:28px; align-items:baseline; border-bottom:1px solid #b7ccc7; padding-bottom:24px;">
-          <span style="font-family:'Spline Sans Mono',monospace; font-size:12.5px; color:#667085; white-space:nowrap;">Jun 2026</span>
-          <p style="margin:0; font-size:18px; line-height:1.55; color:#2d3748;">Paper on <em style="font-style:italic;">efficient long-context attention</em> accepted to NeurIPS 2026 as a main-track spotlight.</p>
-        </li>
-        <li style="display:grid; grid-template-columns:120px 1fr; gap:28px; align-items:baseline; border-bottom:1px solid #b7ccc7; padding-bottom:24px;">
-          <span style="font-family:'Spline Sans Mono',monospace; font-size:12.5px; color:#667085; white-space:nowrap;">Apr 2026</span>
-          <p style="margin:0; font-size:18px; line-height:1.55; color:#2d3748;">Began a research internship at Allen Institute for AI, working on retrieval-augmented agents.</p>
-        </li>
-        <li style="display:grid; grid-template-columns:120px 1fr; gap:28px; align-items:baseline; border-bottom:1px solid #b7ccc7; padding-bottom:24px;">
-          <span style="font-family:'Spline Sans Mono',monospace; font-size:12.5px; color:#667085; white-space:nowrap;">Feb 2026</span>
-          <p style="margin:0; font-size:18px; line-height:1.55; color:#2d3748;">Released <a href="#" style="color:var(--accent,#00594f); border-bottom:1px solid #8fb8b0;">evalkit</a>, an open-source toolkit for evaluating multimodal models. 600+ stars in a week.</p>
-        </li>
-        <li style="display:grid; grid-template-columns:120px 1fr; gap:28px; align-items:baseline;">
-          <span style="font-family:'Spline Sans Mono',monospace; font-size:12.5px; color:#667085; white-space:nowrap;">Dec 2025</span>
-          <p style="margin:0; font-size:18px; line-height:1.55; color:#2d3748;">Passed my M.S. thesis proposal at USC on data-efficient instruction tuning.</p>
-        </li>
-      </ul>
+      <div class="updates-block">
+        <ul class="updates-list" aria-label="Selected updates">
+          <li class="update-row">
+            <time datetime="2026-06">Jun 2026</time>
+            <p>Paper on <em style="font-style:italic;">efficient long-context attention</em> accepted to NeurIPS 2026 as a main-track spotlight.</p>
+          </li>
+          <li class="update-row">
+            <time datetime="2026-04">Apr 2026</time>
+            <p>Began a research internship at Allen Institute for AI, working on retrieval-augmented agents.</p>
+          </li>
+          <li class="update-row">
+            <time datetime="2026-02">Feb 2026</time>
+            <p>Released <a href="#" style="color:var(--accent,#00594f); border-bottom:1px solid #8fb8b0;">evalkit</a>, an open-source toolkit for evaluating multimodal models. 600+ stars in a week.</p>
+          </li>
+        </ul>
+
+        <details class="updates-archive">
+          <summary>
+            <span>
+              <span class="archive-title">Past updates</span>
+              <span class="archive-range">2025 and earlier</span>
+            </span>
+            <span class="archive-toggle" aria-hidden="true"></span>
+          </summary>
+          <ul class="archive-list" aria-label="Past updates">
+            <li>
+              <time datetime="2025-12">Dec 2025</time>
+              <p>Passed my M.S. thesis proposal at USC on data-efficient instruction tuning.</p>
+            </li>
+          </ul>
+        </details>
+      </div>
     </section>
 
     <!-- ABOUT -->
