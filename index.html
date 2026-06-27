@@ -5,11 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Nitin Gupta - Portfolio</title>
   <meta name="description" content="Nitin Gupta, AI researcher and M.S. in Computer Science student at USC.">
-  <meta name="theme-color" content="#e6f0ee">
+  <meta name="theme-color" content="#f2eadc">
+  <script>
+    (() => {
+      try {
+        const stored = localStorage.getItem('portfolio-theme-mode');
+        const mode = stored === 'light' || stored === 'dark' ? stored : 'browser';
+        const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+        document.documentElement.dataset.themeMode = mode;
+        document.documentElement.dataset.theme = mode === 'browser' ? (prefersDark ? 'dark' : 'light') : mode;
+      } catch {
+        document.documentElement.dataset.themeMode = 'browser';
+        document.documentElement.dataset.theme = 'light';
+      }
+    })();
+  </script>
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-<div class="portfolio-root" style="--accent: #00594f; --primary-bg: #e6f0ee; --primary-surface: #f8fbfa; --primary-deep: #2d3748; display:flex; flex-direction:column; background:#e6f0ee; color:#2d3748; font-family:'Hanken Grotesk',sans-serif; min-height:100vh; -webkit-font-smoothing:antialiased;">
+<div class="portfolio-root" style="--accent: #00594f; --primary-bg: #f2eadc; --primary-surface: #f8fbfa; --primary-deep: #2d3748; display:flex; flex-direction:column; background:#f2eadc; color:#2d3748; font-family:'Hanken Grotesk',sans-serif; min-height:100vh; -webkit-font-smoothing:antialiased;">
 
   <!-- ===================== MAIN CONTENT ===================== -->
   <main style="width:92%; max-width:1500px; margin:0 auto; padding:88px 28px 176px;">
@@ -187,43 +201,154 @@
   </main>
 
   <!-- ===================== STICKY BOTTOM BAR ===================== -->
-  <div class="bottom-bar" style="position:fixed; left:0; right:0; bottom:18px; z-index:30; display:flex; align-items:flex-end; justify-content:space-between; gap:16px; padding:0 22px; pointer-events:none;">
-
-    <!-- LEFT: profile + section tabs -->
-    <div style="pointer-events:auto; min-width:0; background:rgba(248,251,250,0.92); backdrop-filter:blur(12px); border:1px solid rgba(0,89,79,0.38); border-radius:999px; box-shadow:0 14px 34px rgba(0,89,79,0.18), 0 8px 30px rgba(45,55,72,0.12); padding:8px 14px 8px 8px; display:flex; align-items:center; gap:10px;">
-      <div style="width:96px; height:135px; flex:none; align-self:flex-end; margin:-86px 14px -14px 0; border-radius:26px; overflow:hidden; box-shadow:0 0 0 4px #e6f0ee, 0 0 0 7px rgba(0,89,79,0.45), 0 12px 28px rgba(0,89,79,0.3);">
-        <img src="assets/profile.jpg" alt="Nitin Gupta" style="width:100%; height:100%; object-fit:cover; object-position:50% 50%; display:block;">
-      </div>
-      <nav style="min-width:0; display:flex; align-items:center; gap:2px; overflow-x:auto;">
-        <a class="nav-tab" href="#updates" style="padding:7px 11px; border-radius:999px; font-family:'Spline Sans Mono',monospace; font-size:11.5px; letter-spacing:0.04em; text-transform:uppercase; color:#52606d; white-space:nowrap;">Updates</a>
-        <a class="nav-tab" href="#about" style="padding:7px 11px; border-radius:999px; font-family:'Spline Sans Mono',monospace; font-size:11.5px; letter-spacing:0.04em; text-transform:uppercase; color:#52606d; white-space:nowrap;">About</a>
-        <a class="nav-tab" href="#publications" style="padding:7px 11px; border-radius:999px; font-family:'Spline Sans Mono',monospace; font-size:11.5px; letter-spacing:0.04em; text-transform:uppercase; color:#52606d; white-space:nowrap;">Papers</a>
-        <a class="nav-tab" href="#experience" style="padding:7px 11px; border-radius:999px; font-family:'Spline Sans Mono',monospace; font-size:11.5px; letter-spacing:0.04em; text-transform:uppercase; color:#52606d; white-space:nowrap;">Experience</a>
-        <a class="nav-tab" href="#projects" style="padding:7px 11px; border-radius:999px; font-family:'Spline Sans Mono',monospace; font-size:11.5px; letter-spacing:0.04em; text-transform:uppercase; color:#52606d; white-space:nowrap;">Projects</a>
-        <a class="nav-tab" href="#contact" style="padding:7px 11px; border-radius:999px; font-family:'Spline Sans Mono',monospace; font-size:11.5px; letter-spacing:0.04em; text-transform:uppercase; color:#52606d; white-space:nowrap;">Contact</a>
-      </nav>
-    </div>
-
-    <!-- RIGHT: hover-to-expand Connect launcher -->
-    <div class="connect" style="position:relative; pointer-events:auto; flex:none;">
-      <div class="connect-panel" style="position:absolute; right:0; bottom:100%; padding-bottom:12px;">
-        <div style="min-width:236px; background:rgba(248,251,250,0.97); backdrop-filter:blur(14px); border:1px solid rgba(0,89,79,0.36); border-radius:18px; box-shadow:0 20px 44px rgba(0,89,79,0.2), 0 16px 40px rgba(45,55,72,0.14); padding:10px; display:flex; flex-direction:column; gap:2px;">
-        <div style="font-family:'Spline Sans Mono',monospace; font-size:10.5px; letter-spacing:0.14em; text-transform:uppercase; color:#667085; padding:6px 14px 8px;">Elsewhere</div>
-        <a class="connect-link" href="https://www.linkedin.com/" target="_blank" rel="noopener" style="display:flex; align-items:center; justify-content:space-between; gap:24px; padding:11px 14px; border-radius:12px; font-size:15px; color:#2d3748;"><span>LinkedIn</span><span style="font-family:'Spline Sans Mono',monospace; font-size:12px; color:#6f8f8a;">↗</span></a>
-        <a class="connect-link" href="https://github.com/" target="_blank" rel="noopener" style="display:flex; align-items:center; justify-content:space-between; gap:24px; padding:11px 14px; border-radius:12px; font-size:15px; color:#2d3748;"><span>GitHub</span><span style="font-family:'Spline Sans Mono',monospace; font-size:12px; color:#6f8f8a;">↗</span></a>
-        <a class="connect-link" href="https://scholar.google.com/" target="_blank" rel="noopener" style="display:flex; align-items:center; justify-content:space-between; gap:24px; padding:11px 14px; border-radius:12px; font-size:15px; color:#2d3748;"><span>Google Scholar</span><span style="font-family:'Spline Sans Mono',monospace; font-size:12px; color:#6f8f8a;">↗</span></a>
-        <a class="connect-link" href="mailto:nitin@example.com" style="display:flex; align-items:center; justify-content:space-between; gap:24px; padding:11px 14px; border-radius:12px; font-size:15px; color:#2d3748;"><span>Email</span><span style="font-family:'Spline Sans Mono',monospace; font-size:12px; color:#6f8f8a;">→</span></a>
+  <div class="bottom-bar">
+    <div class="bottom-dock" aria-label="Site controls and table of contents">
+      <div class="theme-picker dock-theme">
+        <div class="theme-panel">
+          <div class="theme-menu" role="menu" aria-label="Theme mode">
+            <div class="theme-kicker">Theme</div>
+            <button class="theme-option" type="button" role="menuitemradio" aria-checked="true" data-theme-choice="browser">
+              <span class="theme-swatch theme-swatch-browser" aria-hidden="true"></span>
+              <span>Browser</span>
+              <span class="theme-option-note">Default</span>
+            </button>
+            <button class="theme-option" type="button" role="menuitemradio" aria-checked="false" data-theme-choice="light">
+              <span class="theme-swatch theme-swatch-light" aria-hidden="true"></span>
+              <span>Light</span>
+            </button>
+            <button class="theme-option" type="button" role="menuitemradio" aria-checked="false" data-theme-choice="dark">
+              <span class="theme-swatch theme-swatch-dark" aria-hidden="true"></span>
+              <span>Dark</span>
+            </button>
+          </div>
         </div>
+        <button class="theme-trigger" type="button" aria-label="Theme mode: Browser" aria-haspopup="menu">
+          <span class="theme-glyph" aria-hidden="true"><span></span></span>
+        </button>
       </div>
-      <button class="connect-trigger" type="button" style="appearance:none; cursor:pointer; background:var(--accent,#00594f); backdrop-filter:blur(12px); border:1px solid var(--accent,#00594f); border-radius:999px; box-shadow:0 16px 40px rgba(0,89,79,0.34), 0 8px 30px rgba(45,55,72,0.14); padding:13px 20px; display:flex; align-items:center; gap:10px; font-family:'Spline Sans Mono',monospace; font-size:11.5px; letter-spacing:0.1em; text-transform:uppercase; color:#f8fbfa;">
-        <span style="width:7px; height:7px; border-radius:50%; background:var(--accent,#00594f);"></span>
-        Connect
-        <span class="connect-caret" style="font-size:9px; color:#667085;">▲</span>
-      </button>
-    </div>
 
+      <nav class="dock-nav dock-nav-left" aria-label="Section links, left side">
+        <a class="nav-tab" href="#updates">Updates</a>
+        <a class="nav-tab" href="#about">About</a>
+        <a class="nav-tab" href="#publications">Papers</a>
+      </nav>
+
+      <div class="dock-profile" aria-label="Nitin Gupta portrait">
+        <img src="assets/profile.jpg" alt="Nitin Gupta">
+      </div>
+
+      <nav class="dock-nav dock-nav-right" aria-label="Section links, right side">
+        <a class="nav-tab" href="#experience">Experience</a>
+        <a class="nav-tab" href="#projects">Projects</a>
+        <a class="nav-tab" href="#contact">Contact</a>
+      </nav>
+
+      <div class="connect dock-connect">
+        <div class="connect-panel">
+          <div class="connect-menu">
+            <div class="connect-kicker">Elsewhere</div>
+            <a class="connect-link" href="https://www.linkedin.com/" target="_blank" rel="noopener"><span>LinkedIn</span><span aria-hidden="true">↗</span></a>
+            <a class="connect-link" href="https://github.com/" target="_blank" rel="noopener"><span>GitHub</span><span aria-hidden="true">↗</span></a>
+            <a class="connect-link" href="https://scholar.google.com/" target="_blank" rel="noopener"><span>Google Scholar</span><span aria-hidden="true">↗</span></a>
+            <a class="connect-link" href="mailto:nitin@example.com"><span>Email</span><span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+        <button class="connect-trigger" type="button" aria-label="Show external links">
+          <span class="connect-dot" aria-hidden="true"></span>
+          <span class="connect-label">Connect</span>
+          <span class="connect-caret" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
   </div>
 
 </div>
+<script>
+  (() => {
+    const root = document.querySelector('.portfolio-root');
+    if (!root) return;
+
+    const topThreshold = 12;
+    let ticking = false;
+
+    const syncProfile = () => {
+      root.classList.toggle('is-profile-hidden', window.scrollY > topThreshold);
+      ticking = false;
+    };
+
+    window.addEventListener('scroll', () => {
+      if (!ticking) {
+        ticking = true;
+        window.requestAnimationFrame(syncProfile);
+      }
+    }, { passive: true });
+
+    syncProfile();
+
+    const themeStorageKey = 'portfolio-theme-mode';
+    const themeOptions = Array.from(document.querySelectorAll('[data-theme-choice]'));
+    const themeTrigger = document.querySelector('.theme-trigger');
+    const themeMeta = document.querySelector('meta[name="theme-color"]');
+    const themeLabels = { browser: 'Browser', light: 'Light', dark: 'Dark' };
+    const themeColors = { light: '#f2eadc', dark: '#111019' };
+    const systemTheme = window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)') : { matches: false };
+    let themeMode = 'browser';
+
+    const validThemeMode = (mode) => mode === 'browser' || mode === 'light' || mode === 'dark';
+
+    const savedThemeMode = () => {
+      try {
+        const stored = localStorage.getItem(themeStorageKey);
+        return validThemeMode(stored) ? stored : 'browser';
+      } catch {
+        return 'browser';
+      }
+    };
+
+    const resolvedTheme = (mode) => {
+      if (mode === 'dark') return 'dark';
+      if (mode === 'light') return 'light';
+      return systemTheme.matches ? 'dark' : 'light';
+    };
+
+    const applyTheme = (mode) => {
+      themeMode = validThemeMode(mode) ? mode : 'browser';
+      const resolved = resolvedTheme(themeMode);
+
+      document.documentElement.dataset.themeMode = themeMode;
+      document.documentElement.dataset.theme = resolved;
+      root.dataset.themeMode = themeMode;
+      root.dataset.theme = resolved;
+
+      if (themeMeta) themeMeta.setAttribute('content', themeColors[resolved]);
+      if (themeTrigger) themeTrigger.setAttribute('aria-label', `Theme mode: ${themeLabels[themeMode]}`);
+
+      themeOptions.forEach((option) => {
+        option.setAttribute('aria-checked', String(option.dataset.themeChoice === themeMode));
+      });
+    };
+
+    themeOptions.forEach((option) => {
+      option.addEventListener('click', () => {
+        const nextMode = option.dataset.themeChoice;
+        try {
+          if (nextMode === 'browser') localStorage.removeItem(themeStorageKey);
+          else localStorage.setItem(themeStorageKey, nextMode);
+        } catch {}
+        applyTheme(nextMode);
+        if (themeTrigger) themeTrigger.focus({ preventScroll: true });
+      });
+    });
+
+    const handleSystemThemeChange = () => {
+      if (themeMode === 'browser') applyTheme('browser');
+    };
+
+    if (systemTheme.addEventListener) systemTheme.addEventListener('change', handleSystemThemeChange);
+    else if (systemTheme.addListener) systemTheme.addListener(handleSystemThemeChange);
+
+    applyTheme(savedThemeMode());
+  })();
+</script>
 </body>
 </html>
