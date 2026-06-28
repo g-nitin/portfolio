@@ -1,23 +1,23 @@
-# Static Portfolio Template
+# Nitin Gupta Portfolio
 
-This repo is a cleaned static version of the exported portfolio mockup. It does
-not require a bundler, package install, generated runtime, or client-side
-framework.
+This repo contains a static single-page portfolio for Nitin Gupta. It does not
+require a bundler, package install, generated runtime, or client-side framework.
 
 ## Files
 
-- `index.html` - content, sections, contact links, and metadata.
+- `index.html` - portfolio content, sections, contact links, and metadata.
 - `assets/css/styles.css` - self-hosted font declarations and shared global/hover styles.
 - `assets/fonts/` - local `.woff2` font files extracted from the export.
 - `assets/profile.jpg` - optimized portrait image with metadata stripped.
+- `assets/projects/` - project preview screenshots used by the portfolio cards.
 - `404.html` - simple fallback redirect for static hosts.
 - `.nojekyll` - disables GitHub Pages Jekyll processing.
 
 ## Editing
 
 Update profile details, projects, publications, email address, and social
-handles directly in `index.html`. Replace `assets/profile.jpg` with a new
-optimized image when needed.
+handles directly in `index.html`. Replace `assets/profile.jpg` or project
+screenshots in `assets/projects/` with optimized images when needed.
 
 ## Preview
 
