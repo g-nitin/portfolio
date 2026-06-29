@@ -1,6 +1,6 @@
 # Nitin Gupta Portfolio
 
-This repo contains a static single-page portfolio for Nitin Gupta. It does not
+This repo contains a static single-page portfolio. It does not
 require a bundler, package install, generated runtime, or client-side framework.
 
 ## Files
@@ -13,12 +13,6 @@ require a bundler, package install, generated runtime, or client-side framework.
 - `404.html` - simple fallback redirect for static hosts.
 - `.nojekyll` - disables GitHub Pages Jekyll processing.
 
-## Editing
-
-Update profile details, projects, publications, email address, and social
-handles directly in `index.html`. Replace `assets/profile.jpg` or project
-screenshots in `assets/projects/` with optimized images when needed.
-
 ## Preview
 
 Open `index.html` in a browser, or serve the folder locally:
@@ -28,8 +22,3 @@ python3 -m http.server 8000
 ```
 
 Then visit `http://localhost:8000`.
-
-## Deployment
-
-Any static host can publish this from the repository root. For GitHub Pages,
-set Pages to deploy from the main branch and root directory.
