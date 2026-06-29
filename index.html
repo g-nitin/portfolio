@@ -5,12 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Nitin Gupta - Portfolio</title>
   <meta name="description" content="Nitin Gupta, Computer Science master's student and AI researcher at the University of South Carolina.">
-  <meta name="theme-color" content="#f2eadc">
+  <meta name="theme-color" content="#eef3f1">
   <script>
     (() => {
       try {
         const stored = localStorage.getItem('portfolio-theme-mode');
-        const mode = stored === 'light' || stored === 'dark' ? stored : 'browser';
+        const mode = stored === 'light' || stored === 'light-silver' || stored === 'light-stone' ? 'light'
+          : stored === 'dark' || stored === 'dark-silver' || stored === 'dark-stone' ? 'dark'
+          : 'browser';
         const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
         document.documentElement.dataset.themeMode = mode;
         document.documentElement.dataset.theme = mode === 'browser' ? (prefersDark ? 'dark' : 'light') : mode;
@@ -23,7 +25,7 @@
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-<div class="portfolio-root" style="--accent: #00594f; --primary-bg: #f2eadc; --primary-surface: #f8fbfa; --primary-deep: #2d3748; display:flex; flex-direction:column; background:#f2eadc; color:#2d3748; font-family:'Hanken Grotesk',sans-serif; min-height:100vh; -webkit-font-smoothing:antialiased;">
+<div class="portfolio-root" style="--accent: #00594f; --primary-bg: #eef3f1; --primary-surface: #f8fbfa; --primary-deep: #22313a; display:flex; flex-direction:column; background:#eef3f1; color:#22313a; font-family:'Hanken Grotesk',sans-serif; min-height:100vh; -webkit-font-smoothing:antialiased;">
 
   <!-- ===================== MAIN CONTENT ===================== -->
   <main style="width:92%; max-width:1500px; margin:0 auto; padding:88px 28px 176px;">
@@ -390,16 +392,24 @@
     const themeTrigger = document.querySelector('.theme-trigger');
     const themeMeta = document.querySelector('meta[name="theme-color"]');
     const themeLabels = { browser: 'Browser', light: 'Light', dark: 'Dark' };
-    const themeColors = { light: '#f2eadc', dark: '#111019' };
+    const themeColors = { light: '#eef3f1', dark: '#202523' };
     const systemTheme = window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)') : { matches: false };
     let themeMode = 'browser';
+
+    const legacyThemeMode = (mode) => {
+      if (mode === 'light-silver' || mode === 'light-stone') return 'light';
+      if (mode === 'dark-silver' || mode === 'dark-stone') return 'dark';
+      return mode;
+    };
 
     const validThemeMode = (mode) => mode === 'browser' || mode === 'light' || mode === 'dark';
 
     const savedThemeMode = () => {
       try {
-        const stored = localStorage.getItem(themeStorageKey);
-        return validThemeMode(stored) ? stored : 'browser';
+        const stored = legacyThemeMode(localStorage.getItem(themeStorageKey));
+        if (validThemeMode(stored)) return stored;
+        localStorage.removeItem(themeStorageKey);
+        return 'browser';
       } catch {
         return 'browser';
       }
@@ -412,7 +422,8 @@
     };
 
     const applyTheme = (mode) => {
-      themeMode = validThemeMode(mode) ? mode : 'browser';
+      const normalizedMode = legacyThemeMode(mode);
+      themeMode = validThemeMode(normalizedMode) ? normalizedMode : 'browser';
       const resolved = resolvedTheme(themeMode);
 
       document.documentElement.dataset.themeMode = themeMode;
